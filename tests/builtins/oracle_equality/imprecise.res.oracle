@@ -1,0 +1,14 @@
+98a99,100
+> [kernel] imprecise.c:51: 
+>   imprecise size for variable v3 (abstract type 'struct u')
+220a223,224
+> [kernel] imprecise.c:111: 
+>   more than 200(300) elements to enumerate. Approximating.
+228a233,234
+> [kernel] imprecise.c:114: 
+>   more than 200(300) elements to enumerate. Approximating.
+237,240d242
+< [kernel] imprecise.c:111: 
+<   more than 200(300) elements to enumerate. Approximating.
+< [kernel] imprecise.c:114: 
+<   more than 200(300) elements to enumerate. Approximating.
