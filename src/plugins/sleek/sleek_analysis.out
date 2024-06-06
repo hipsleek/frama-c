@@ -1,0 +1,101 @@
+ERROR : oc cannot be found!!
+ERROR : fixcalc cannot be found!!
+
+!!! **src/tpdispatcher.ml#492:init_tp by default: 
+!!! **src/tpdispatcher.ml#391:set_tp z3Starting z3... 
+
+!!! **WARNING****src/sleek.ml#494:[./../hipsleek/prelude.slk,annotations.txt]
+Starting Omega...oc_cannot be found
+
+[omega.ml ]Unexpected exception while starting prover omega
+End_of_file when checking #simplify 
+ not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
+ not restarting Omega ... 0 invocations 
+Starting Omega...oc_cannot be found
+
+[omega.ml ]Unexpected exception while starting prover omega
+End_of_file when checking #simplify 
+ not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
+ not restarting Omega ... 0 invocations 
+Starting Omega...oc_cannot be found
+
+[omega.ml ]Unexpected exception while starting prover omega
+End_of_file when checking #simplify 
+ not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
+ not restarting Omega ... 0 invocations 
+Starting Omega...oc_cannot be found
+
+[omega.ml ]Unexpected exception while starting prover omega
+End_of_file when checking #simplify 
+ not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
+ not restarting Omega ... 0 invocations 
+Starting Omega...oc_cannot be found
+
+[omega.ml ]Unexpected exception while starting prover omega
+End_of_file when checking #simplify 
+ not restarting Omega ... 0 invocations 
+Starting Omega...oc_cannot be found
+
+[omega.ml ]Unexpected exception while starting prover omega
+End_of_file when checking #simplify 
+ not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
+ not restarting Omega ... 0 invocations 
+Starting Omega...oc_cannot be found
+
+[omega.ml ]Unexpected exception while starting prover omega
+End_of_file when checking #simplify 
+ not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
+ not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
+ not restarting Omega ... 0 invocations 
+Starting Omega...oc_cannot be found
+
+[omega.ml ]Unexpected exception while starting prover omega
+End_of_file when checking #simplify 
+ not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
+ not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
+ not restarting Omega ... 0 invocations 
+Starting Omega...oc_cannot be found
+
+[omega.ml ]Unexpected exception while starting prover omega
+End_of_file when checking #simplify 
+ not restarting Omega ... 0 invocations 
+Starting Omega...oc_cannot be found
+
+[omega.ml ]Unexpected exception while starting prover omega
+End_of_file when checking #simplify 
+ not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
+ not restarting Omega ... 0 invocations 
+Starting Omega...oc_cannot be found
+
+[omega.ml ]Unexpected exception while starting prover omega
+End_of_file when checking #simplify 
+ not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
+ not restarting Omega ... 0 invocations 
+Entail 1: Valid. 
+
+
+Entail 2: Valid. 
+
+
+Entail 3: Valid. 
+
+
+Entail 4: Fail.(must) cause: true |-  1+n+1=n+1. LOCS:[0;13] (RHS: contradiction)
+
+
+Stop z3... 74 invocations 
+SAT Count   : 240
+SAT % Hit   : 82.5%
+IMPLY Count : 65
+IMPLY % Hit : 50.76%
+Time(cache overhead) : 0.037341 (seconds)
+
+0 false contexts at: ()
+
+!!! log(small):(0.431364,354)
+!!! 
+ log(bigger)(>4s)(3):(15.,[(SAT:74<4:Z3,5.);(SAT:94<11:Z3,5.);(SAT:207<21:Z3,5.)])
+Total verification time: 0.255381 second(s)
+	Time spent in main process: 0.220946 second(s)
+	Time spent in child processes: 0.034435 second(s)
+
