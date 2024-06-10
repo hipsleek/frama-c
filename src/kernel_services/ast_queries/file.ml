@@ -136,6 +136,7 @@ let from_filename ?cpp f =
            on non-preprocessed files will be discarded.";
       NeedCPP (f, cpp, extra_for_this_file, is_cpp_gnu_like ())
     end else
+      let () = print_string suf in
       Kernel.abort "No working preprocessor found. You can only analyze \
                     preprocessed .i files."
 
