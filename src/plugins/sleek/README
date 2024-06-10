@@ -1,0 +1,4 @@
+- When installed, Frama-C will automatically parse file ending with ".cslk" by a custom parser.
+- With this parser, SLEEK specifications can be processed.
+- To use plugin, user has to have hipsleek installed.
+- User needs to specifiy path to hipsleek directory in the frama-c/scr/plugins/sleek/sleek.conf 
