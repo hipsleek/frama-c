@@ -83,7 +83,12 @@ let exit_ghost_annot () =
 
 let add_comment c = Cabshelper.Comments.add (currentLoc()) c
 
+let init_file filename =
+  let oc = open_out_gen [Open_wronly; Open_creat; Open_trunc; Open_text] 0o666 filename in
+  close_out oc
 
+(* initialize the file *)
+let () = init_file "annotations.txt"
 
 
 (*
@@ -388,6 +393,9 @@ let pragmaLine = ref false
 
 let annot_char = ref '@'
 
+(* seperation logic character *)
+let sl_char = ref '#'
+
 (* prevent the C lexer interpretation of comments *)
 let prevent _ x = annot_char := if x then '@' else '\000'
 let () = Kernel.ReadAnnot.add_set_hook prevent
@@ -424,6 +432,11 @@ let make_annot ~one_line default lexbuf s =
     | Logic_ptree.Acode_annot (loc,a) -> CODE_ANNOT (a, loc)
     | Logic_ptree.Aloop_annot (loc,a) -> LOOP_ANNOT (a,loc)
     | Logic_ptree.Aattribute_annot (loc,a) -> ATTRIBUTE_ANNOT (a, loc)
+
+let write_sl_to_file filename content = 
+  let oc = open_out_gen [Open_append; Open_creat; Open_text] 0o666 filename in
+  Printf.fprintf oc "%s\n" content;
+  close_out oc
 
 (* Initialize the pointer in Errormsg *)
 let () =
@@ -512,6 +525,8 @@ rule initial = parse
     let first_string = String.make 1 c in
     if c = !annot_char
     then annot_lex initial annot_first_token lexbuf
+    else if c = !sl_char
+    then annot_lex initial sl_token lexbuf
     else (do_lex_comment ~first_string comment lexbuf ; initial lexbuf)
     }
 
@@ -809,6 +824,29 @@ and chr =  parse
   | escape      { lex_simple_escape chr lexbuf }
   | eof         { parse_error "unterminated char" }
   | _           { lex_unescaped chr lexbuf }
+
+
+and sl_token = parse
+  | ' '|'@'|'\t'|'\r' as c { Buffer.add_char buf c ; sl_token lexbuf }
+  | '\n' { E.newline() ; Buffer.add_char buf '\n' ; sl_token lexbuf }
+  | ""   { annot_sl_token lexbuf }
+
+and annot_sl_token = parse
+  | "*/"
+    {
+    let s = Buffer.contents buf in
+    Printf.printf "Buffer contents: %s\n" s;
+    (* write to a txt file *)
+    write_sl_to_file "annotations.txt" s;
+    Buffer.clear buf;
+    initial lexbuf
+    }
+  | eof  { parse_error "Unterminated annotation" }
+  | '\n' { E.newline() ; Buffer.add_char buf '\n' ; annot_sl_token lexbuf }
+  | _ as c
+    {
+    Buffer.add_char buf c ; annot_sl_token lexbuf
+    }
 
 
 and annot_first_token = parse
