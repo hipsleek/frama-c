@@ -74,45 +74,17 @@ End_of_file when checking #simplify
 Entail 1: Valid. 
 
 
-Entail 2: Valid. 
-
-
-Entail 3: Valid. 
-
-
-Entail 4: Fail.(must) cause: true |-  1+n+1=n+1. LOCS:[0;12] (RHS: contradiction)
-
-Residue:
-
-
-Starting Omega...oc_cannot be found
-
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations  MustErr Context: 
-   fe_kind: MUST
-   fe_name: logical bug
-   fe_locs: {
-     fc_message:  true |-  1+n+1=n+1. LOCS:[0;12] (RHS: contradiction)
-     fc_current_lhs_flow: {FLOW,(20,21)=__norm#E}
-   }
- [[ SEARCH ==>  Fold ==>  SEARCH ==>  Match(x,x) ==>  SEARCH ==>  Fold ==>  SEARCH ==>  Match(r,r_134) ==>  SEARCH ==>  COND ==>  Match(r2,r_142)]]
- CEX:false
-
-Stop z3... 74 invocations 
-SAT Count   : 240
-SAT % Hit   : 82.5%
-IMPLY Count : 65
-IMPLY % Hit : 50.76%
-Time(cache overhead) : 0.051007 (seconds)
+Stop z3... 31 invocations 
+SAT Count   : 51
+SAT % Hit   : 60.78%
+IMPLY Count : 15
+IMPLY % Hit : 26.66%
+Time(cache overhead) : 0.007102 (seconds)
 
 0 false contexts at: ()
 
-!!! log(small):(0.554709,355)
-!!! 
- log(bigger)(>4s)(4):(20.,[(SAT:74<4:Z3,5.);(SAT:94<11:Z3,5.);(SAT:207<21:Z3,5.);(simplify:326<31:Z3,5.)])
-Total verification time: 0.30892 second(s)
-	Time spent in main process: 0.283239 second(s)
-	Time spent in child processes: 0.025681 second(s)
+!!! log(small):(0.064213,95)
+Total verification time: 0.107551 second(s)
+	Time spent in main process: 0.094628 second(s)
+	Time spent in child processes: 0.012923 second(s)
 
