@@ -1,0 +1,10 @@
+FXException.o: /usr/local/etc/reduce/csl/fox/src/FXException.cpp \
+ /usr/local/etc/reduce/csl/fox/include/fxver.h \
+ /usr/local/etc/reduce/csl/fox/include/fxdefs.h \
+ /usr/local/etc/reduce/csl/fox/include/FXException.h
+
+/usr/local/etc/reduce/csl/fox/include/fxver.h:
+
+/usr/local/etc/reduce/csl/fox/include/fxdefs.h:
+
+/usr/local/etc/reduce/csl/fox/include/FXException.h:

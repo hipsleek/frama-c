@@ -1,0 +1,79 @@
+9
+
+dir
+392
+https://reduce-algebra.svn.sourceforge.net/svnroot/reduce-algebra/trunk/packages/redlog
+https://reduce-algebra.svn.sourceforge.net/svnroot/reduce-algebra
+
+
+
+2009-07-28T07:05:52.830983Z
+392
+thomas-sturm
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+152ddeec-559a-11dd-9a24-73e4b225fce9
+
+tplp
+dir
+
+acfsf
+dir
+
+dcfsf
+dir
+
+qqe
+dir
+
+mri
+dir
+
+ibalp
+dir
+
+pasf
+dir
+
+qepcad
+dir
+
+ofsf
+dir
+
+rltools
+dir
+
+cl
+dir
+
+talp
+dir
+
+qqe_ofsf
+dir
+
+dvfsf
+dir
+
+texi
+dir
+
+mma
+dir
+
+rl
+dir
+

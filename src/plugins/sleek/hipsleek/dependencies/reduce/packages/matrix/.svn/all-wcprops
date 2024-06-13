@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix
+END
+nestdom.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/nestdom.red
+END
+det.red
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/det.red
+END
+nullsp.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/nullsp.red
+END
+matrix.rlg
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/matrix.rlg
+END
+matpri2.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/matpri2.red
+END
+resultnt.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/resultnt.red
+END
+matsm.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/matsm.red
+END
+extops.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/extops.red
+END
+bareiss.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/bareiss.red
+END
+rank.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/rank.red
+END
+matpri.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/matpri.red
+END
+cofactor.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/cofactor.red
+END
+matrix.tst
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/matrix.tst
+END
+matrix.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/matrix.red
+END
+glmat.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/matrix/glmat.red
+END

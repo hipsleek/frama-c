@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric
+END
+numeval.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/numeval.red
+END
+numeric.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/numeric.txt
+END
+numsolve.red
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/numsolve.red
+END
+numint.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/numint.red
+END
+newton.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/newton.red
+END
+numeric.rlg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/numeric.rlg
+END
+rungeku.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/rungeku.red
+END
+gauss.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/gauss.red
+END
+chebysh.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/chebysh.red
+END
+numeric.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/numeric.tex
+END
+bounds.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/bounds.red
+END
+steepstd.red
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/steepstd.red
+END
+numfit.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/numfit.red
+END
+numeric.tst
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/numeric.tst
+END
+numeric.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/numeric/numeric.red
+END

@@ -83,14 +83,6 @@ let exit_ghost_annot () =
 
 let add_comment c = Cabshelper.Comments.add (currentLoc()) c
 
-let init_file filename =
-  let oc = open_out_gen [Open_wronly; Open_creat; Open_trunc; Open_text] 0o666 filename in
-  close_out oc
-
-(* initialize the file *)
-let () = init_file "annotations.txt"
-
-
 (*
 ** Keyword hashtable
 *)

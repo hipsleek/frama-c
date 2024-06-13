@@ -1,0 +1,1775 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/reduce-algebra/!svn/ver/383/trunk/csl/fox/include
+END
+FXImageFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXImageFrame.h
+END
+FXColorDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXColorDialog.h
+END
+FXCP861Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP861Codec.h
+END
+FXChoiceBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXChoiceBox.h
+END
+FXSplitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSplitter.h
+END
+FXIconSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXIconSource.h
+END
+FXCheckButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCheckButton.h
+END
+FXDial.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDial.h
+END
+FXComposeContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXComposeContext.h
+END
+FXMemMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMemMap.h
+END
+FXToggleButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXToggleButton.h
+END
+FXApp.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXApp.h
+END
+fxdefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/fxdefs.h
+END
+FXSplashWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSplashWindow.h
+END
+FXDirBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDirBox.h
+END
+FXPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPoint.h
+END
+FXStatusLine.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXStatusLine.h
+END
+FXIconDict.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXIconDict.h
+END
+FXGZFileStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGZFileStream.h
+END
+FXCP850Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP850Codec.h
+END
+FX88593Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX88593Codec.h
+END
+FXDCNativePrinter.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDCNativePrinter.h
+END
+FXRangef.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRangef.h
+END
+FXColorWell.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXColorWell.h
+END
+FXDockBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDockBar.h
+END
+fwin.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/383/trunk/csl/fox/include/fwin.h
+END
+FXFontSelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXFontSelector.h
+END
+FXMat3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMat3d.h
+END
+FXGLSphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGLSphere.h
+END
+FXRootWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRootWindow.h
+END
+FX885910Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX885910Codec.h
+END
+FXRGBImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRGBImage.h
+END
+FXSpinner.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSpinner.h
+END
+FXCP1256Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP1256Codec.h
+END
+FXTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTable.h
+END
+FXSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSocket.h
+END
+FXToolBarTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXToolBarTab.h
+END
+FXSphered.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSphered.h
+END
+FXShowMath.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXShowMath.h
+END
+FXFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXFrame.h
+END
+FXGLCanvas.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGLCanvas.h
+END
+FXPostscriptFont.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPostscriptFont.h
+END
+FXScrollPane.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXScrollPane.h
+END
+FXMenuCheck.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMenuCheck.h
+END
+FXRecentFiles.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRecentFiles.h
+END
+FXCP857Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP857Codec.h
+END
+FXGLContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGLContext.h
+END
+FXCanvas.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCanvas.h
+END
+FXDirSelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDirSelector.h
+END
+FXDrawable.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDrawable.h
+END
+FXMenuCaption.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMenuCaption.h
+END
+FXHash.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXHash.h
+END
+FXRealSlider.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRealSlider.h
+END
+FXElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXElement.h
+END
+FXTranslator.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTranslator.h
+END
+FX88591Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX88591Codec.h
+END
+FXGIFCursor.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGIFCursor.h
+END
+FXCP866Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP866Codec.h
+END
+FXIO.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXIO.h
+END
+FXFileList.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXFileList.h
+END
+FXCP1254Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP1254Codec.h
+END
+FXExtentf.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXExtentf.h
+END
+FXBMPImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXBMPImage.h
+END
+FXGLShape.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGLShape.h
+END
+FXRulerView.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRulerView.h
+END
+FXMenuSeparator.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMenuSeparator.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/fox/include/Makefile.am
+END
+FXScrollWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXScrollWindow.h
+END
+FXRadioButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRadioButton.h
+END
+FXTIFIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTIFIcon.h
+END
+FXRex.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRex.h
+END
+FXMathText.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMathText.h
+END
+FXColorRing.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXColorRing.h
+END
+FXCP855Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP855Codec.h
+END
+FX88598Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX88598Codec.h
+END
+FXVec2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXVec2d.h
+END
+FXPacker.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPacker.h
+END
+FXString.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXString.h
+END
+FXIFFImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXIFFImage.h
+END
+FXMat4d.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMat4d.h
+END
+FXPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPicker.h
+END
+FXFoldingList.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXFoldingList.h
+END
+FXColorSelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXColorSelector.h
+END
+FX885915Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX885915Codec.h
+END
+FXJPGImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXJPGImage.h
+END
+FXSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSystem.h
+END
+FXMemoryStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMemoryStream.h
+END
+FXProgressBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXProgressBar.h
+END
+FXDebugTarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDebugTarget.h
+END
+FXPPMImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPPMImage.h
+END
+FXCP864Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP864Codec.h
+END
+FXComposite.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXComposite.h
+END
+FXDCPrint.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDCPrint.h
+END
+FXTreeListBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTreeListBox.h
+END
+FXThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXThread.h
+END
+FXMat3f.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMat3f.h
+END
+FXCP1252Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP1252Codec.h
+END
+FXDCWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDCWindow.h
+END
+FXDataTarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDataTarget.h
+END
+termed.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/termed.h
+END
+FXToolBarGrip.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXToolBarGrip.h
+END
+FXVerticalFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXVerticalFrame.h
+END
+FXSearchDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSearchDialog.h
+END
+FXArrowButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXArrowButton.h
+END
+fxunicode.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/fxunicode.h
+END
+FXTextField.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTextField.h
+END
+FXSpheref.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSpheref.h
+END
+FXFileDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXFileDialog.h
+END
+FXMenuButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMenuButton.h
+END
+FX88596Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX88596Codec.h
+END
+FXPCXIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPCXIcon.h
+END
+FXGLCone.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGLCone.h
+END
+FXStatusBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXStatusBar.h
+END
+FXDLL.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDLL.h
+END
+FXPrintDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPrintDialog.h
+END
+FXIFFIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXIFFIcon.h
+END
+FXQuatd.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXQuatd.h
+END
+FX885913Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX885913Codec.h
+END
+FXAccelTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXAccelTable.h
+END
+FXTextCodec.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTextCodec.h
+END
+FXDict.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDict.h
+END
+FXText.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXText.h
+END
+FXTriStateButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTriStateButton.h
+END
+FXCP862Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP862Codec.h
+END
+FXUndoList.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXUndoList.h
+END
+FXVec3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXVec3d.h
+END
+FXBitmapView.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXBitmapView.h
+END
+FXMenuPane.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMenuPane.h
+END
+FXCP1250Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP1250Codec.h
+END
+FXMainWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMainWindow.h
+END
+FXDriveBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDriveBox.h
+END
+FXICOIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXICOIcon.h
+END
+FXTGAIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTGAIcon.h
+END
+xincs.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/xincs.h
+END
+FXScrollArea.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXScrollArea.h
+END
+FXCURCursor.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCURCursor.h
+END
+FXRuler.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRuler.h
+END
+FXMenuBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMenuBar.h
+END
+FX4Splitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX4Splitter.h
+END
+FXReplaceDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXReplaceDialog.h
+END
+FXMessageBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMessageBox.h
+END
+FXShutter.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXShutter.h
+END
+FX88594Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX88594Codec.h
+END
+FXMenuCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMenuCommand.h
+END
+FXUTF16Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXUTF16Codec.h
+END
+FXGLTriangleMesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGLTriangleMesh.h
+END
+FXVec2f.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXVec2f.h
+END
+FXCP869Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP869Codec.h
+END
+FXStat.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXStat.h
+END
+FXMat4f.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMat4f.h
+END
+FXImageView.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXImageView.h
+END
+FX885911Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX885911Codec.h
+END
+FXCP1257Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP1257Codec.h
+END
+FXImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXImage.h
+END
+FXScrollBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXScrollBar.h
+END
+FXGLViewer.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGLViewer.h
+END
+FXBitmapFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXBitmapFrame.h
+END
+FXRASImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRASImage.h
+END
+FXStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXStream.h
+END
+FXTreeList.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTreeList.h
+END
+FXCP860Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP860Codec.h
+END
+FXSeparator.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSeparator.h
+END
+FXMatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMatrix.h
+END
+FXMDIButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMDIButton.h
+END
+FXMenuTitle.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMenuTitle.h
+END
+FXShell.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXShell.h
+END
+FXWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXWindow.h
+END
+FXSize.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSize.h
+END
+FXDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDocument.h
+END
+FXIconList.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXIconList.h
+END
+FXTabItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTabItem.h
+END
+FXDragCorner.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDragCorner.h
+END
+FXTabBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTabBar.h
+END
+FXPCXImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPCXImage.h
+END
+FX88592Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX88592Codec.h
+END
+FXRASIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRASIcon.h
+END
+FXGLCube.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGLCube.h
+END
+FXPopup.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPopup.h
+END
+FXHorizontalFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXHorizontalFrame.h
+END
+FXVec4d.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXVec4d.h
+END
+FXFont.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXFont.h
+END
+FXDialogBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDialogBox.h
+END
+FXGIFImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGIFImage.h
+END
+FXButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXButton.h
+END
+FXCP1255Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP1255Codec.h
+END
+FXLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXLabel.h
+END
+FXQuatf.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXQuatf.h
+END
+FXRealSpinner.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRealSpinner.h
+END
+FXDockTitle.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDockTitle.h
+END
+FXFileDict.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXFileDict.h
+END
+FXProgressDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXProgressDialog.h
+END
+FXPNGImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPNGImage.h
+END
+FXJPGIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXJPGIcon.h
+END
+fxver.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/fxver.h
+END
+FXException.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXException.h
+END
+FXSettings.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSettings.h
+END
+fxver.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/fox/include/fxver.h.in
+END
+FXColorWheel.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXColorWheel.h
+END
+FXCP856Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP856Codec.h
+END
+FX88599Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX88599Codec.h
+END
+FXVec3f.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXVec3f.h
+END
+FXMenuCascade.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMenuCascade.h
+END
+FXTerminal.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/381/trunk/csl/fox/include/FXTerminal.h
+END
+FXICOImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXICOImage.h
+END
+FXCursor.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCursor.h
+END
+FXDate.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDate.h
+END
+FXDir.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDir.h
+END
+FXGIFIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGIFIcon.h
+END
+FXInputDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXInputDialog.h
+END
+fx.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/fx.h
+END
+FX885916Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX885916Codec.h
+END
+FXListBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXListBox.h
+END
+FXDC.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDC.h
+END
+FXBMPIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXBMPIcon.h
+END
+FXGLObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGLObject.h
+END
+FXToolTip.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXToolTip.h
+END
+FXTopWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTopWindow.h
+END
+FXPipe.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPipe.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/383/trunk/csl/fox/include/Makefile.in
+END
+FXWizard.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXWizard.h
+END
+FXUTF32Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXUTF32Codec.h
+END
+FXSpring.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSpring.h
+END
+FXColorBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXColorBar.h
+END
+FXCP865Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP865Codec.h
+END
+FXObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXObject.h
+END
+FXDelegator.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDelegator.h
+END
+FXRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRegistry.h
+END
+FXComboBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXComboBox.h
+END
+FXCP1253Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP1253Codec.h
+END
+FXTGAImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTGAImage.h
+END
+FXArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXArray.h
+END
+FXFileSelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXFileSelector.h
+END
+FXTabBook.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTabBook.h
+END
+FXRegion.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRegion.h
+END
+FXFontDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXFontDialog.h
+END
+FX7Segment.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX7Segment.h
+END
+FXXBMImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXXBMImage.h
+END
+FXFileStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXFileStream.h
+END
+FXPNGIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPNGIcon.h
+END
+FXOptionMenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXOptionMenu.h
+END
+FXXBMIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXXBMIcon.h
+END
+FXRanged.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRanged.h
+END
+FX88597Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX88597Codec.h
+END
+FXURL.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXURL.h
+END
+FXCP874Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP874Codec.h
+END
+fx3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/fx3d.h
+END
+FXXPMImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXXPMImage.h
+END
+FXStringDict.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXStringDict.h
+END
+FXDirList.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDirList.h
+END
+fxkeys.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/fxkeys.h
+END
+FXMDIChild.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMDIChild.h
+END
+FXDockHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDockHandler.h
+END
+FXFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXFile.h
+END
+FX885914Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX885914Codec.h
+END
+FXSlider.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSlider.h
+END
+FXGUISignal.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGUISignal.h
+END
+FXRGBIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRGBIcon.h
+END
+FXHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXHeader.h
+END
+FXKnob.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXKnob.h
+END
+FXToolBarShell.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXToolBarShell.h
+END
+FXPath.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPath.h
+END
+FXId.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXId.h
+END
+FXCP437Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP437Codec.h
+END
+FXDirDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDirDialog.h
+END
+FXCP863Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP863Codec.h
+END
+FXObjectList.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXObjectList.h
+END
+FXDockSite.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXDockSite.h
+END
+FXGroupBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGroupBox.h
+END
+FXVec4f.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXVec4f.h
+END
+FXCP1251Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP1251Codec.h
+END
+FXGLVisual.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGLVisual.h
+END
+FXGLCylinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGLCylinder.h
+END
+FXCP852Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP852Codec.h
+END
+FXExpression.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXExpression.h
+END
+FX88595Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FX88595Codec.h
+END
+FXToolBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXToolBar.h
+END
+FXVisual.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXVisual.h
+END
+FXRectangle.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXRectangle.h
+END
+FXPPMIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXPPMIcon.h
+END
+FXMDIClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMDIClient.h
+END
+FXColorList.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXColorList.h
+END
+FXList.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXList.h
+END
+FXExtentd.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXExtentd.h
+END
+FXBitmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXBitmap.h
+END
+FXXPMIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXXPMIcon.h
+END
+FXCP1258Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXCP1258Codec.h
+END
+FXGradientBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXGradientBar.h
+END
+FXMenuRadio.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXMenuRadio.h
+END
+FXUTF8Codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXUTF8Codec.h
+END
+FXTIFImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXTIFImage.h
+END
+FXBZFileStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXBZFileStream.h
+END
+FXSwitcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXSwitcher.h
+END
+FXIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXIcon.h
+END
+fxascii.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/fxascii.h
+END
+FXKOI8RCodec.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/include/FXKOI8RCodec.h
+END

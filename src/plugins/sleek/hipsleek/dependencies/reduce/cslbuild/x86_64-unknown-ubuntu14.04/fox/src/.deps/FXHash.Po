@@ -1,0 +1,12 @@
+FXHash.o: /usr/local/etc/reduce/csl/fox/src/FXHash.cpp \
+ /usr/include/stdc-predef.h /usr/local/etc/reduce/csl/fox/include/fxver.h \
+ /usr/local/etc/reduce/csl/fox/include/fxdefs.h \
+ /usr/local/etc/reduce/csl/fox/include/FXHash.h
+
+/usr/include/stdc-predef.h:
+
+/usr/local/etc/reduce/csl/fox/include/fxver.h:
+
+/usr/local/etc/reduce/csl/fox/include/fxdefs.h:
+
+/usr/local/etc/reduce/csl/fox/include/FXHash.h:

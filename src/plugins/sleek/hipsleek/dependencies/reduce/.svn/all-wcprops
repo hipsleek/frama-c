@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/reduce-algebra/!svn/ver/392/trunk
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/reduce-algebra/!svn/ver/366/trunk/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/reduce-algebra/!svn/ver/355/trunk/Makefile.in
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/reduce-algebra/!svn/ver/140/trunk/depcomp
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/reduce-algebra/!svn/ver/355/trunk/config.guess
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/reduce-algebra/!svn/ver/355/trunk/config.sub
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/reduce-algebra/!svn/ver/355/trunk/README
+END
+BUILDING
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/reduce-algebra/!svn/ver/59/trunk/BUILDING
+END
+rebuild.sh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/reduce-algebra/!svn/ver/10/trunk/rebuild.sh
+END
+xport.pat
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/reduce-algebra/!svn/ver/354/trunk/xport.pat
+END
+DEPENDENCY_TRACKING
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/34/trunk/DEPENDENCY_TRACKING
+END
+BUGS
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/reduce-algebra/!svn/ver/34/trunk/BUGS
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/reduce-algebra/!svn/ver/366/trunk/configure.ac
+END
+Contributor-Release.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/34/trunk/Contributor-Release.txt
+END
+MANIFEST
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/reduce-algebra/!svn/ver/355/trunk/MANIFEST
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/reduce-algebra/!svn/ver/280/trunk/missing
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/reduce-algebra/!svn/ver/34/trunk/Makefile.am
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/reduce-algebra/!svn/ver/365/trunk/autogen.sh
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/reduce-algebra/!svn/ver/355/trunk/aclocal.m4
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/reduce-algebra/!svn/ver/355/trunk/Makefile
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/reduce-algebra/!svn/ver/280/trunk/install-sh
+END

@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner
+END
+groebres.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebres.red
+END
+hilbertp.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/hilbertp.red
+END
+hilbert2.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/hilbert2.red
+END
+kuechl.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/kuechl.red
+END
+hilberts.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/hilberts.red
+END
+groebsor.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebsor.red
+END
+glexconv.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/glexconv.red
+END
+groebrst.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebrst.red
+END
+ideals.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/ideals.tex
+END
+groebner.tex
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebner.tex
+END
+buchbg.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/buchbg.red
+END
+groesolv.doc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/1/trunk/packages/groebner/groesolv.doc
+END
+groebcri.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebcri.red
+END
+groebidq.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebidq.red
+END
+groesolv.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groesolv.red
+END
+ideals.tst
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/ideals.tst
+END
+groebspa.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebspa.red
+END
+groebner.tst
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebner.tst
+END
+groeweak.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groeweak.red
+END
+groebtra.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebtra.red
+END
+traverso.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/traverso.red
+END
+groext.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groext.red
+END
+groebfac.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebfac.red
+END
+ideals.rlg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/ideals.rlg
+END
+hggroeb.red
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/hggroeb.red
+END
+groebner.rlg
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebner.rlg
+END
+grinterf.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/grinterf.red
+END
+groebnr2.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebnr2.red
+END
+groebopt.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebopt.red
+END
+greduo.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/greduo.red
+END
+groebner.bib
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebner.bib
+END
+groebsea.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebsea.red
+END
+groebman.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebman.red
+END
+grinter2.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/grinter2.red
+END
+pk-groeb.tex
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/pk-groeb.tex
+END
+hille.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/hille.red
+END
+kredelw.red
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/kredelw.red
+END
+new1.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/new1.tex
+END
+ideals.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/ideals.red
+END
+groebmes.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebmes.red
+END
+groebner.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/groebner/groebner.red
+END

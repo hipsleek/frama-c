@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse
+END
+sparse.rlg
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse/sparse.rlg
+END
+spludcmp.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse/spludcmp.red
+END
+splinalg.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse/splinalg.red
+END
+spmateig.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse/spmateig.red
+END
+sparsmat.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse/sparsmat.red
+END
+sparse.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse/sparse.red
+END
+sparse.tst
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse/sparse.tst
+END
+spsvd.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse/spsvd.red
+END
+spchlsky.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse/spchlsky.red
+END
+spgrmshm.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse/spgrmshm.red
+END
+sparse.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/sparse/sparse.tex
+END

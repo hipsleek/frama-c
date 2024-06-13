@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn
+END
+simpfact.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/simpfact.red
+END
+specbess.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/specbess.red
+END
+specfn2.hlp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/specfn2.hlp
+END
+constre.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/constre.red
+END
+specfaux.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/specfaux.red
+END
+specfn.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/specfn.red
+END
+sfsums.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfsums.red
+END
+meijerg.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/meijerg.red
+END
+sfrules.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfrules.red
+END
+sfigamma.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfigamma.red
+END
+ghyper.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/ghyper.tex
+END
+sfpsi.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfpsi.red
+END
+fps.red
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/fps.red
+END
+hgrsolve.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/hgrsolve.red
+END
+ratalgo.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/ratalgo.red
+END
+sfairy.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfairy.red
+END
+sfellip.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfellip.red
+END
+dilog.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/dilog.red
+END
+sfpolys.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfpolys.red
+END
+harmonic.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/harmonic.red
+END
+specfn2.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/specfn2.red
+END
+jsymbols.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/jsymbols.red
+END
+simplede.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/simplede.red
+END
+sfbdata.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfbdata.red
+END
+specfn.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/specfn.tex
+END
+sfellipi.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfellipi.red
+END
+meijerg.tex
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/meijerg.tex
+END
+sfother.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfother.red
+END
+sfgamm.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfgamm.red
+END
+sfgamma.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfgamma.red
+END
+linrec.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/linrec.red
+END
+substexp.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/substexp.red
+END
+recsimpl.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/recsimpl.red
+END
+fps.tex
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/fps.tex
+END
+specfn.tst
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/specfn.tst
+END
+sfbern.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfbern.red
+END
+sfint.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfint.red
+END
+specfn.hlp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/specfn.hlp
+END
+fps.tst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/fps.tst
+END
+specfn.rlg
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/specfn.rlg
+END
+sfkummer.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfkummer.red
+END
+sfbinom.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfbinom.red
+END
+ghyper.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/ghyper.red
+END
+specfn.bib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/specfn.bib
+END
+fps.hlp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/fps.hlp
+END
+sfgen.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfgen.red
+END
+sfconsts.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfconsts.red
+END
+sfbes.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/sfbes.red
+END
+fps.rlg
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/specfn/fps.rlg
+END

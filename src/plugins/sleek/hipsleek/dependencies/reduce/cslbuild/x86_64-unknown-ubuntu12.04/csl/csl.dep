@@ -1,0 +1,6 @@
+csldep = \
+	/usr/local/etc/reduce/csl/cslbase/buildcsl.lsp \
+	/usr/local/etc/reduce/csl/cslbase/compat.lsp \
+	/usr/local/etc/reduce/csl/cslbase/compiler.lsp \
+	/usr/local/etc/reduce/csl/cslbase/extras.lsp
+

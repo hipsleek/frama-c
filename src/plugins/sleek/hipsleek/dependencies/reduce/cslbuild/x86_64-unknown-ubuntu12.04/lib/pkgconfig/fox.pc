@@ -1,0 +1,10 @@
+prefix=/usr/local/etc/reduce/cslbuild/x86_64-unknown-ubuntu12.04
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: FOX
+Description: FOX is a C++ based Toolkit for developing Graphical User Interfaces
+Version: 1.6.21
+Libs: -L${libdir} -lFOX-1.6  -lXext -lX11 -lXft   -lXcursor -lXrandr   -ldl -lXcursor -lXrender -lcurses -lrt -ldl  -lpthread -lrt
+Cflags: -I${includedir}/fox-1.6

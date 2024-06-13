@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp
+END
+lpri.red
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/lpri.red
+END
+newtok.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/newtok.red
+END
+io.red
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/io.red
+END
+where.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/where.red
+END
+list.red
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/list.red
+END
+infix.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/infix.red
+END
+xmodule.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/xmodule.red
+END
+array.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/array.red
+END
+inter.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/inter.red
+END
+forstat.red
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/forstat.red
+END
+mkset.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/mkset.red
+END
+smacro.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/smacro.red
+END
+superv.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/superv.red
+END
+module.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/module.red
+END
+slfns.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/slfns.red
+END
+module-dist.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/module-dist.red
+END
+statmisc.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/statmisc.red
+END
+rlisp.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/rlisp.red
+END
+block.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/block.red
+END
+rintro-txt.red
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/rintro-txt.red
+END
+parser.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/parser.red
+END
+loops.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/loops.red
+END
+tok.red
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/tok.red
+END
+rsupport.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/rsupport.red
+END
+switch.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/switch.red
+END
+vector.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/vector.red
+END
+proc.red
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/proc.red
+END
+form.red
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/form.red
+END
+xread.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/packages/rlisp/xread.red
+END

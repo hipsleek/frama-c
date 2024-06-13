@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/391/trunk/packages/redlog/mri
+END
+mri.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/391/trunk/packages/redlog/mri/mri.red
+END
+mriqe.red
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/81/trunk/packages/redlog/mri/mriqe.red
+END
+mri_pasf.red
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/81/trunk/packages/redlog/mri/mri_pasf.red
+END
+mri_ofsf.red
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/81/trunk/packages/redlog/mri/mri_ofsf.red
+END

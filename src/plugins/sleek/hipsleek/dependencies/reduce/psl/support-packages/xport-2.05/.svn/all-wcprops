@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/355/trunk/psl/support-packages/xport-2.05
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/reduce-algebra/!svn/ver/355/trunk/psl/support-packages/xport-2.05/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/reduce-algebra/!svn/ver/355/trunk/psl/support-packages/xport-2.05/Makefile.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/reduce-algebra/!svn/ver/292/trunk/psl/support-packages/xport-2.05/configure.ac
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/reduce-algebra/!svn/ver/149/trunk/psl/support-packages/xport-2.05/depcomp
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/reduce-algebra/!svn/ver/149/trunk/psl/support-packages/xport-2.05/COPYING
+END
+compile
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/reduce-algebra/!svn/ver/149/trunk/psl/support-packages/xport-2.05/compile
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/reduce-algebra/!svn/ver/149/trunk/psl/support-packages/xport-2.05/Makefile.am
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/reduce-algebra/!svn/ver/149/trunk/psl/support-packages/xport-2.05/missing
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/reduce-algebra/!svn/ver/355/trunk/psl/support-packages/xport-2.05/config.guess
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/reduce-algebra/!svn/ver/149/trunk/psl/support-packages/xport-2.05/README
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/reduce-algebra/!svn/ver/355/trunk/psl/support-packages/xport-2.05/aclocal.m4
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/reduce-algebra/!svn/ver/355/trunk/psl/support-packages/xport-2.05/config.sub
+END
+xport.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/reduce-algebra/!svn/ver/149/trunk/psl/support-packages/xport-2.05/xport.c
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/reduce-algebra/!svn/ver/149/trunk/psl/support-packages/xport-2.05/install-sh
+END

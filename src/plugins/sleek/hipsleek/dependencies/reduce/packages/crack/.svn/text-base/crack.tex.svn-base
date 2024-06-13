@@ -1,0 +1,1504 @@
+\documentclass[12pt]{article}
+
+%Sets size of page and margins
+\oddsidemargin 10mm  \evensidemargin 10mm
+\topmargin 0pt   \headheight 0pt   \headsep 0pt
+\textwidth 15cm
+ 
+\title{The computer algebra package {\sc Crack}
+       for solving over-determined systems of equations}
+ 
+\author{Thomas Wolf \\                        
+        Department of Mathematics \\
+        Brock University \\
+        St.Catharines \\
+        Ontario, Canada L2S 3A1 \\
+        twolf@brocku.ca}
+
+\begin{document}
+\maketitle
+\tableofcontents                                  
+\section{Online help} 
+
+\subsection{Help to help} 
+\begin{tabbing}
+  {\bf hd} \ \= Help to inspect data \\
+  {\bf hp}   \> Help to proceed \\
+  {\bf hf}   \> Help to change flags \& parameters \\
+  {\bf hc}   \> Help to change data of equations \\
+  {\bf hi}   \> Help to work with identities \\
+  {\bf hb}   \> Help to trace and debug
+\end{tabbing}
+
+\subsection{Help to inspect data} 
+\begin{tabbing}
+  {\bf e}\ \ \ \ \= Print equations          \\
+  {\bf eo}   \> Print overview of functions in equations  \\
+  {\bf pi}   \> Print inequalities  \\ 
+  {\bf f}    \> Print functions and variables        \\
+  {\bf v}    \> Print all derivatives of all functions  \\
+  {\bf s}    \> Print statistics                  \\
+  {\bf fc}   \> Print no of free cells  \\
+  {\bf pe}   \> Print an algebraic expression \\
+  {\bf ph}   \> Print history of interactive input \\
+  {\bf pv}   \> Print value of any lisp variable \\
+  {\bf pd}   \> Plot the occurence of functions in equations \\
+  {\bf ss}   \> Find and print sub-systems \\
+  {\bf w}    \> Write equations into a file
+\end{tabbing}
+
+\subsection{Help to proceed} 
+\begin{tabbing}
+  {\bf a}\ \ \ \ \= Do one step automatically      \\        
+  {\bf g}    \> Go on for a number of steps automatically    \\
+  {\bf t}    \> Toggle between automatic and user selection of 
+                equations ({\tt expert\_mode=nil/t}).  \\
+  {\bf p1}   \> Print a list of all modules in batch mode \\
+  {\bf p2}   \> Print a complete list of all modules \\
+  {\bf \#}   \> Execute the module with the number `\#' once  \\
+  {\bf l}    \> Execute a specific module repeatedly         \\
+  {\bf sb}   \> Save complete backup to file \\
+  {\bf rb}   \> Read backup from file \\
+  {\bf ep}   \> Enable parallelism \\
+  {\bf dp}   \> Disable parallelism \\
+  {\bf pp}   \> Start an identical parallel process \\
+  {\bf kp}   \> Kill a parallel process \\
+  {\bf x}    \> Exit interactive mode for good            \\
+  {\bf q}    \> Quit current level or crack if in level 0    \\        
+\end{tabbing}
+
+\subsection{Help to change flags \& parameters} 
+\begin{tabbing}
+  {\bf pl} \ \ \ \= Maximal length of an expression to be printed  \\
+  {\bf pm}   \> Toggle to print more or less information about 
+                        pdes ({\tt print\_more})    \\
+  {\bf pa}   \> Toggle to print all or not all information 
+                        about the pdes ({\tt print\_all}) \\
+  {\bf cp}   \> Change the priorities of procedures   \\
+  {\bf og}   \> Toggle ordering between `lexicographical 
+                ordering of functions having\\
+             \> a higher priority than any ordering of
+                derivatives' and the opposite \\
+             \> ({\tt lex\_fc=t}) resp.\ ({\tt lex\_fc=nil}) \\
+  {\bf od}   \> Toggle ordering between `the total order
+                of derivatives having a higher\\
+             \> priority than lexicographical ordering' 
+                ({\tt lex\_df=nil}) or not ({\tt lex\_df=t}) \\
+  {\bf oi}   \> Interactive change of ordering on variables \\
+  {\bf or}   \> Reverse ordering on variables \\
+  {\bf om}   \> Mix randomly ordering on variables \\
+  {\bf of}   \> Interactive change of ordering on functions     \\
+  {\bf op}   \> Print current ordering  \\
+  {\bf ne}   \> Root of the name of new generated equations
+                        (default: e\_) \\
+  {\bf nf}   \> Root of the name of new functions and constants
+                        (default: c\_) \\
+  {\bf ni}   \> Root of the name of new identities
+                        (default: id\_) \\
+  {\bf na}   \> Toggle for the NAT output switch ({\tt !*nat}) \\
+  {\bf as}   \> Input of an assignment          \\
+  {\bf kp}   \> Toggle for keeping a partitioned copy of each
+                        equation ({\tt keep\_parti}) \\
+  {\bf fi}   \> Toggle for allowing or not allowing
+                        integrations of equations which \\
+             \> involve unresolved integrals ({\tt freeint\_})  \\
+  {\bf fa}   \> Toggle for allowing or not allowing solutions of ODEs
+                        involving the \\
+             \> {\tt abs} function ({\tt freeabs\_})  \\
+  {\bf cs}   \> Switch on/off the confirmation of intended substitutions
+                and of the \\
+             \> order of the investigation of subcases 
+                resulting in a factorization \\
+  {\bf fs}   \> Enforce direct separation \\
+  {\bf ll}   \> change of the line length \\
+  {\bf re}   \> Toggle for allowing to re-cycle equation names
+             ({\tt do\_recycle\_eqn})  \\
+  {\bf rf}   \> Toggle for allowing to re-cycle function names
+             ({\tt do\_recycle\_fnc}) \\
+  {\bf st}   \> Setting a CPU time limit for un-interrupted run \\
+  {\bf cm}   \> Adding a comment to the history\_ list \\
+  {\bf lr}   \> Adding a LET-rule \\
+  {\bf cr}   \> Clearing a LET-rule
+\end{tabbing}
+
+\subsection{Help to change data of equations} 
+\begin{tabbing}
+  {\bf r}\ \ \ \ \ \= Replace or add one equation \\
+  {\bf n}    \> Replace one inequality      \\
+  {\bf d}    \> Delete one equation         \\             
+  {\bf c}    \> Change a flag or property of one pde  
+\end{tabbing}
+
+\subsection{Help to work with identities} 
+\begin{tabbing}
+  {\bf i}\ \ \ \ \ \= Print identities between equations \\
+  {\bf id}   \> Delete redundand equations \\
+  {\bf iw}   \> Write identities to a file \\
+  {\bf ir}   \> Remove list of identities \\
+  {\bf ia}   \> Add or replace an identity \\
+  {\bf ih}   \> Start recording histories and identities \\
+  {\bf ip}   \> Stop recording histories and identities \\
+  {\bf ii}   \> Integrate an identity \\
+  {\bf ic}   \> Check the consistency of identity data \\
+  {\bf iy}   \> Print the history of equations
+\end{tabbing}
+
+\subsection{Help to trace and debug}
+\begin{tabbing}
+  {\bf tm}  \ \= Toggle for tracing the main procedure ({\tt tr\_main}) \\
+  {\bf tg}    \> Toggle for tracing the generalized separation
+                        ({\tt tr\_gensep}) \\
+  {\bf ti}    \> Toggle for tracing the generalized integration  
+                        ({\tt tr\_genint})  \\
+  {\bf td}    \> Toggle for tracing the decoupling process
+                        ({\tt tr\_decouple}) \\
+  {\bf tl}    \> Toggle for tracing the decoupling length reduction
+                        process ({\tt tr\_redlength}) \\
+  {\bf ts}    \> Toggle for tracing the algebraic length reduction
+                        process ({\tt tr\_short}) \\
+  {\bf to}    \> Toggle for tracing the ordering procedures
+                        process ({\tt tr\_orderings}) \\
+  {\bf tr}    \> Trace an arbitrary procedure \\
+  {\bf ut}    \> Untrace a procedure \\
+  {\bf br}    \> Lisp break          \\                 
+  {\bf pc}    \> Do a function call  \\
+  {\bf in}    \> Reading in a REDUCE file
+\end{tabbing}
+
+\section{The purpose of  Crack}
+The package {\sc Crack} attempts the solution of an overdetermined 
+system of algebraic or ordinary or partial differential 
+equations (ODEs/PDEs) with at most polynomial nonlinearities. 
+
+Under `normal circumstances' differential 
+equations (DEs) which describe physical
+processes are not overdetermined, i.e.\ the number of DEs
+matches the number of unknown functions which are involved.
+Applying the package {\sc Crack} to such problems directly may be
+successful, especially if these are ODEs, but the main type of
+application is to investigate qualitative properties of such DEs/systems
+of DEs and to solve the overdetermined PDE-systems that result in these
+investigations.
+
+Applications of {\sc Crack} include a program {\sc Conlaw}
+for the computation of conservation laws of DEs, a program 
+{\sc LiePDE} for the        h:=reverse vari;  % reverse to have not a function as symvar
+          while 1+sub(u_=first h,pde)=0 do h:=rest h; % no similarity var.
+          for each e1 in fargs u_ do nodepend u_,e1;
+          h:=first h;
+          trans2:={u_ - h};
+          lisp<<write"Because the correct symmetry variable was not ",
+                     "found, the program will";terpri()$
+                write"take ",reval algebraic h,
+                     " instead with the consequence ",
+                     "that not the whole transformed ";terpri()$
+                write"PDE will be free of ",
+                     reval algebraic h," but only those ",
+                     "terms without ",
+                     reval algebraic h,"-derivative";terpri()$
+                write"which is still of use for finding special ",
+                     reval algebraic h,"-independent solutions ";
+                terpri()$
+                write"of the PDE."
+          >>
+        >>           else <<
+          %--------------- Determining an optimal symmetry variable
+          for each e1 in fargs u_ do nodepend u_,e1;
+          symvarfound:=t;
+          i:=0;
+          trans2:=for each el1 in trans2 collect
+          <<i:=i+1;
+            lisp
+            <<
+    %         terpri()$
+    %         write"In the following the symmetry variable U_",
+    %              " has to be"$terpri()$
+    %         write"determined through a condition 0 = ff",
+    %              ", where ff is"$terpri()$
+    %         write"an arbitrary function ";terpri()$
+    %         algebraic(write"ff = ",
+    %         lisp( cons('ff,cdr reval algebraic el1)));terpri()$
+              write"A suggestion for this function ff(..) yields:";terpri()
+            >>;
+            h:=einfachst(el1,u_);
+            if lisp<<h2:=reval algebraic(num h);
+                     (not pairp h2) or (car h2 neq 'PLUS)>> then
+            h:=num(h+1);
+    %       if h= first el1 then
+    %       if freeof(num(h+second el1),u_) then h:=num(h+2*second el1)
+    %                                       else h:=num(h+  second el1)
+    %                       else
+    %       if freeof(num(h+ first el1),u_) then h:=num(h+2* first el1)
+    %                                       else h:=num(h+   first el1);
+            write"0 = ",h$
+            if yesp "Do you like this choice?" then h
+                                               else <<
+              repeat <<
+                lisp <<
+                  write"Put in an alternative expression which "$terpri()$
+                  write"- is functionally dependent only on arguments of",
+                       " ff given above and"$terpri()$
+                  write"- depends on u_ and if set to zero determines u_"$
+                  terpri()>>$
+                h:=termxread()$
+              >> until not freeof(h,u_)$
+              h
+            >>
+          >>
+        >>$
+        %for each el1 in trans1 do
+        %for each el2 in trans2 do
+
+        el1:=first trans1;
+        el2:=first trans2;
+
+%        <<
+
+          %------- Grouping the new variables to ulist and vlist
+
+          yslist:=grouping(el1,el2,xlist,ylist,nx,ny)$
+          xslist:= first yslist;
+          yslist:=second yslist;
+
+          %---- Renaming the u_ to ui in yslist and to vi in xslist
+          smv:=rename_u_(xslist,yslist,el2,u_,u,v)$
+          xslist:= first smv;
+          yslist:=second smv;
+          vlist := third smv;
+          ulist:=part(smv,4);
+          smv:=part(smv,5);     % the symmetry variable
+
+          %---- Solve for old variables
+          h2:=solve_for_old_var(xslist,yslist,xlist,ylist,nx,ny);
+
+          if h2 neq nil then <<
+
+            %---- Exchange of dependent and independent variables
+            smv:=switch_r_s(h2,smv,ylist,u,v)$
+            xslist:= first smv;
+            yslist:=second smv;
+            smv   :=third smv;
+
+            %---- Doing the point transformation
+            for each el3 in ulist do
+            <<for each el4 in fargs el3 do nodepend el3,el4;
+              for each el4 in vlist do
+              %if el4 neq smv then % if new DEs without symm. var. smv
+              depend el3,el4>>;
+
+            for each el3 in ylist do
+            for each el4 in xlist do depend el3,el4;
+
+            eqlist:=DeTrafo(eqlist,yslist,xslist,ulist,vlist);
+            lisp(
+            if tr_as then <<
+              terpri()$
+              write"The transformed equation";
+              if length(algebraic eqlist)>2 then write"s";
+              if symvarfound then
+              write" which should be free of ",reval algebraic smv,":"
+                             else
+              write" in which the terms without ",reval algebraic smv,
+                   "-derivative are free of ",reval algebraic smv,":";
+              terpri()
+            >>);
+            eqlist:=for each el3 in eqlist collect <<
+              el3:=factorize num el3;
+              for each el4 in el3 product
+              if 0=totdeglist({el4},ulist) then 1
+                                           else el4
+            >>;
+            lisp deprint(cdr reval algebraic eqlist);
+
+            if (length(vlist)>1) and (not freeof(vlist,smv)) then <<
+              vlist:=cons(smv,lisp(delete(reval algebraic smv,
+                                          reval algebraic vlist)));
+              if yesp
+            "Shall the dependence on the symmetry variable be dropped?"
+              then
+              <<for each el3 in ulist do
+                if not my_freeof(el3,smv) then nodepend el3,smv;
+                vlist:=rest vlist>>;
+              eqlist:=for each el3 in eqlist collect <<
+                el3:=factorize num el3;
+                for each el4 in el3 product
+                if 0=totdeglist({el4},ulist) then 1
+                                             else el4
+              >>
+            >>;
+            trafoprob:={{eqlist,ulist,vlist},append(xslist,yslist)}
+          >>
+%        >>
+      >>
+    >>;
+%  >>;
+  for each el1 in xlist do
+  for each el2 in ylist do
+  depend el2,el1;
+
+  clear ff,ffi;
+  return trafoprob
+end$ % of similarity
+
+%----------------------------
+
+algebraic procedure quasilinpde1(pde,u_,vari)$
+begin scalar trans1,e1,e2,q;
+  trans1 := quasilinpde(pde,u_,vari); % for the similarity variable
+  if trans1={} then <<
+    write"The program was not able to find the general solution ",
+         "of the PDE: ",pde," for the function ",u_,".";
+    lisp <<
+      write"Please enter either only a semicolon if no solution ",
+           "is known or enter "$terpri()$
+      write"the solution of the PDE in form ",
+           "of a list {A1,A2,...} where ";terpri()$
+      write"the Ai are algebraic expressions in ",
+           cdr reval algebraic cons(u_,vari);terpri()$
+      write"such that any function ff(A1,A2,...) which is not ",
+           "independent of `",u_;write"'";terpri()$
+      write"determines a solution `",u_,"' of the PDE through 0=ff: "
+    >>;
+    trans1:={termxread()};
+    if trans1={nil} then trans1:={}
+  >>;
+  return trans1
+end$ % of quasilinpde1
+
+end$
+
+l algebraic first ylist,"=...,...} or enter a ",
+           "semicolon ; to end this investigation:";
+      algebraic(h2:=termxread())
+    >>
+  >>;
+  return h2
+end$ % of solve_for_old_var$
+
+%----------------------------
+
+algebraic procedure switch_r_s(h2,smv,ylist,u,v)$
+begin scalar xslist,yslist,el3,h$
+  %---- Exchange of dependent and independent variables
+  xslist:={};
+  yslist:={};
+  for each el3 in h2 do if freeof(ylist,lhs el3) then
+  xslist:=cons(el3,xslist)                       else
+  yslist:=cons(el3,yslist);
+  lisp <<terpri()$
+         write"In the intended transformation shown above",
+              " the dependent ";terpri()$
+         if length yslist>2 then
+         write"variables are the ",reval algebraic u,"i and " else
+         write"variable is ",reval algebraic u," and ";
+
+         if length xslist>2 then
+         write"the independent variables are the ",
+              reval algebraic v,"i." else
+         write"the independent variable is ",reval algebraic v,".";
+         terpri()$
+         write"The symmetry variable is ",reval algebraic smv,", i.e. the ",
+              "transformed expression";terpri();
+   \documentclass[12pt]{article}
+
+%Sets size of page and margins
+\oddsidemargin 10mm  \evensidemargin 10mm
+\topmargin 0pt   \headheight 0pt   \headsep 0pt
+\textwidth 15cm
+ 
+\title{The computer algebra package {\sc Crack}
+       for solving over-determined systems of equations}
+ 
+\author{Thomas Wolf \\                        
+        Department of Mathematics \\
+        Brock University \\
+        St.Catharines \\
+        Ontario, Canada L2S 3A1 \\
+        twolf@brocku.ca}
+
+\begin{document}
+\maketitle
+\tableofcontents                                  
+\section{Online help} 
+
+\subsection{Help to help} 
+\begin{tabbing}
+  {\bf hd} \ \= Help to inspect data \\
+  {\bf hp}   \> Help to proceed \\
+  {\bf hf}   \> Help to change flags \& parameters \\
+  {\bf hc}   \> Help to change data of equations \\
+  {\bf hi}   \> Help to work with identities \\
+  {\bf hb}   \> Help to trace and debug
+\end{tabbing}
+
+\subsection{Help to inspect data} 
+\begin{tabbing}
+  {\bf e}\ \ \ \ \= Print equations          \\
+  {\bf eo}   \> Print overview of functions in equations  \\
+  {\bf pi}   \> Print inequalities  \\ 
+  {\bf f}    \> Print functions and variables        \\
+  {\bf v}    \> Print all derivatives of all functions  \\
+  {\bf s}    \> Print statistics                  \\
+  {\bf fc}   \> Print no of free cells  \\
+  {\bf pe}   \> Print an algebraic expression \\
+  {\bf ph}   \> Print history of interactive input \\
+  {\bf pv}   \> Print value of any lisp variable \\
+  {\bf pd}   \> Plot the occurence of functions in equations \\
+  {\bf ss}   \> Find and print sub-systems \\
+  {\bf w}    \> Write equations into a file
+\end{tabbing}
+
+\subsection{Help to proceed} 
+\begin{tabbing}
+  {\bf a}\ \ \ \ \= Do one step automatically      \\        
+  {\bf g}    \> Go on for a number of steps automatically    \\
+  {\bf t}    \> Toggle between automatic and user selection of 
+                equations ({\tt expert\_mode=nil/t}).  \\
+  {\bf p1}   \> Print a list of all modules in batch mode \\
+  {\bf p2}   \> Print a complete list of all modules \\
+  {\bf \#}   \> Execute the module with the number `\#' once  \\
+  {\bf l}    \> Execute a specific module repeatedly         \\
+  {\bf sb}   \> Save complete backup to file \\
+  {\bf rb}   \> Read backup from file \\
+  {\bf ep}   \> Enable parallelism \\
+  {\bf dp}   \> Disable parallelism \\
+  {\bf pp}   \> Start an identical parallel process \\
+  {\bf kp}   \> Kill a parallel process \\
+  {\bf x}    \> Exit interactive mode for good            \\
+  {\bf q}    \> Quit current level or crack if in level 0    \\        
+\end{tabbing}
+
+\subsection{Help to change flags \& parameters} 
+\begin{tabbing}
+  {\bf pl} \ \ \ \= Maximal length of an expression to be printed  \\
+  {\bf pm}   \> Toggle to print more or less information about 
+                        pdes ({\tt print\_more})    \\
+  {\bf pa}   \> Toggle to print all or not all information 
+                        about the pdes ({\tt print\_all}) \\
+  {\bf cp}   \> Change the priorities of procedures   \\
+  {\bf og}   \> Toggle ordering between `lexicographical 
+                ordering of functions having\\
+             \> a higher priority than any ordering of
+                derivatives' and the opposite \\
+             \> ({\tt lex\_fc=t}) resp.\ ({\tt lex\_fc=nil}) \\
+  {\bf od}   \> Toggle ordering between `the total order
+                of derivatives having a higher\\
+             \> priority than lexicographical ordering' 
+                ({\tt lex\_df=nil}) or not ({\tt lex\_df=t}) \\
+  {\bf oi}   \> Interactive change of ordering on variables \\
+  {\bf or}   \> Reverse ordering on variables \\
+  {\bf om}   \> Mix randomly ordering on variables \\
+  {\bf of}   \> Interactive change of ordering on functions     \\
+  {\bf op}   \> Print current ordering  \\
+  {\bf ne}   \> Root of the name of new generated equations
+                        (default: e\_) \\
+  {\bf nf}   \> Root of the name of new functions and constants
+                        (default: c\_) \\
+  {\bf ni}   \> Root of the name of new identities
+                        (default: id\_) \\
+  {\bf na}   \> Toggle for the NAT output switch ({\tt !*nat}) \\
+  {\bf as}   \> Input of an assignment          \\
+  {\bf kp}   \> Toggle for keeping a partitioned copy of each
+                        equation ({\tt keep\_parti}) \\
+  {\bf fi}   \> Toggle for allowing or not allowing
+                        integrations of equations which \\
+             \> involve unresolved integrals ({\tt freeint\_})  \\
+  {\bf fa}   \> Toggle for allowing or not allowing solutions of ODEs
+                        involving the \\
+             \> {\tt abs} function ({\tt freeabs\_})  \\
+  {\bf cs}   \> Switch on/off the confirmation of intended substitutions
+                and of the \\
+             \> order of the investigation of subcases 
+                resulting in a factorization \\
+  {\bf fs}   \> Enforce direct separation \\
+  {\bf ll}   \> change of the line length \\
+  {\bf re}   \> Toggle for allowing to re-cycle equation names
+             ({\tt do\_recycle\_eqn})  \\
+  {\bf rf}   \> Toggle for allowing to re-cycle function names
+             ({\tt do\_recycle\_fnc}) \\
+  {\bf st}   \> Setting a CPU time limit for un-interrupted run \\
+  {\bf cm}   \> Adding a comment to the history\_ list \\
+  {\bf lr}   \> Adding a LET-rule \\
+  {\bf cr}   \> Clearing a LET-rule
+\end{tabbing}
+
+\subsection{Help to change data of equations} 
+\begin{tabbing}
+  {\bf r}\ \ \ \ \ \= Replace or add one equation \\
+  {\bf n}    \> Replace one inequality      \\
+  {\bf d}    \> Delete one equation         \\             
+  {\bf c}    \> Change a flag or property of one pde  
+\end{tabbing}
+
+\subsection{Help to work with identities} 
+\begin{tabbing}
+  {\bf i}\ \ \ \ \ \= Print identities between equations \\
+  {\bf id}   \> Delete redundand equations \\
+  {\bf iw}   \> Write identities to a file \\
+  {\bf ir}   \> Remove list of identities \\
+  {\bf ia}   \> Add or replace an identity \\
+  {\bf ih}   \> Start recording histories and identities \\
+  {\bf ip}   \> Stop recording histories and identities \\
+  {\bf ii}   \> Integrate an identity \\
+  {\bf ic}   \> Check the consistency of identity data \\
+  {\bf iy}   \> Print the history of equations
+\end{tabbing}
+
+\subsection{Help to trace and debug}
+\begin{tabbing}
+  {\bf tm}  \ \= Toggle for tracing the main procedure ({\tt tr\_main}) \\
+  {\bf tg}    \> Toggle for tracing the generalized separation
+                        ({\tt tr\_gensep}) \\
+  {\bf ti}    \> Toggle for tracing the generalized integration  
+                        ({\tt tr\_genint})  \\
+  {\bf td}    \> Toggle for tracing the decoupling process
+                        ({\tt tr\_decouple}) \\
+  {\bf tl}    \> Toggle for tracing the decoupling length reduction
+                        process ({\tt tr\_redlength}) \\
+  {\bf ts}    \> Toggle for tracing the algebraic length reduction
+                        process ({\tt tr\_short}) \\
+  {\bf to}    \> Toggle for tracing the ordering procedures
+                        process ({\tt tr\_orderings}) \\
+  {\bf tr}    \> Trace an arbitrary procedure \\
+  {\bf ut}    \> Untrace a procedure \\
+  {\bf br}    \> Lisp break          \\                 
+  {\bf pc}    \> Do a function call  \\
+  {\bf in}    \> Reading in a REDUCE file
+\end{tabbing}
+
+\section{The purpose of  Crack}
+The package {\sc Crack} attempts the solution of an overdetermined 
+system of algebraic or ordinary or partial differential 
+equations (ODEs/PDEs) with at most polynomial nonlinearities. 
+
+Under `normal circumstances' differential 
+equations (DEs) which describe physical
+processes are not overdetermined, i.e.\ the number of DEs
+matches the number of unknown functions which are involved.
+Applying the package {\sc Crack} to such problems directly may be
+successful, especially if these are ODEs, but the main type of
+application is to investigate qualitative properties of such DEs/systems
+of DEs and to solve the overdetermined PDE-systems that result in these
+investigations.
+
+Applications of {\sc Crack} include a program {\sc Conlaw}
+for the computation of conservation laws of DEs, a program 
+{\sc LiePDE} for the        h:=reverse vari;  % reverse to have not a function as symvar
+          while 1+sub(u_=first h,pde)=0 do h:=rest h; % no similarity var.
+          for each e1 in fargs u_ do nodepend u_,e1;
+          h:=first h;
+          trans2:={u_ - h};
+          lisp<<write"Because the correct symmetry variable was not ",
+                     "found, the program will";terpri()$
+                write"take ",reval algebraic h,
+                     " instead with the consequence ",
+                     "that not the whole transformed ";terpri()$
+                write"PDE will be free of ",
+                     reval algebraic h," but only those ",
+                     "terms without ",
+                     reval algebraic h,"-derivative";terpri()$
+                write"which is still of use for finding special ",
+                     reval algebraic h,"-independent solutions ";
+                terpri()$
+                write"of the PDE."
+          >>
+        >>           else <<
+          %--------------- Determining an optimal symmetry variable
+          for each e1 in fargs u_ do nodepend u_,e1;
+          symvarfound:=t;
+          i:=0;
+          trans2:=for each el1 in trans2 collect
+          <<i:=i+1;
+            lisp
+            <<
+    %         terpri()$
+    %         write"In the following the symmetry variable U_",
+    %              " has to be"$terpri()$
+    %         write"determined through a condition 0 = ff",
+    %              ", where ff is"$terpri()$
+    %         write"an arbitrary function ";terpri()$
+    %         algebraic(write"ff = ",
+    %         lisp( cons('ff,cdr reval algebraic el1)));terpri()$
+              write"A suggestion for this function ff(..) yields:";terpri()
+            >>;
+            h:=einfachst(el1,u_);
+            if lisp<<h2:=reval algebraic(num h);
+                     (not pairp h2) or (car h2 neq 'PLUS)>> then
+            h:=num(h+1);
+    %       if h= first el1 then
+    %       if freeof(num(h+second el1),u_) then h:=num(h+2*second el1)
+    %                                       else h:=num(h+  second el1)
+    %                       else
+    %       if freeof(num(h+ first el1),u_) then h:=num(h+2* first el1)
+    %                                       else h:=num(h+   first el1);
+            write"0 = ",h$
+            if yesp "Do you like this choice?" then h
+                                               else <<
+              repeat <<
+                lisp <<
+                  write"Put in an alternative expression which "$terpri()$
+                  write"- is functionally dependent only on arguments of",
+                       " ff given above and"$terpri()$
+                  write"- depends on u_ and if set to zero determines u_"$
+                  terpri()>>$
+                h:=termxread()$
+              >> until not freeof(h,u_)$
+              h
+            >>
+          >>
+        >>$
+        %for each el1 in trans1 do
+        %for each el2 in trans2 do
+
+        el1:=first trans1;
+        el2:=first trans2;
+
+%        <<
+
+          %------- Grouping the new variables to ulist and vlist
+
+          yslist:=grouping(el1,el2,xlist,ylist,nx,ny)$
+          xslist:= first yslist;
+          yslist:=second yslist;
+
+          %---- Renaming the u_ to ui in yslist and to vi in xslist
+          smv:=rename_u_(xslist,yslist,el2,u_,u,v)$
+          xslist:= first smv;
+          yslist:=second smv;
+          vlist := third smv;
+          ulist:=part(smv,4);
+          smv:=part(smv,5);     % the symmetry variable
+
+          %---- Solve for old variables
+          h2:=solve_for_old_var(xslist,yslist,xlist,ylist,nx,ny);
+
+          if h2 neq nil then <<
+
+            %---- Exchange of dependent and independent variables
+            smv:=switch_r_s(h2,smv,ylist,u,v)$
+            xslist:= first smv;
+            yslist:=second smv;
+            smv   :=third smv;
+
+            %---- Doing the point transformation
+            for each el3 in ulist do
+            <<for each el4 in fargs el3 do nodepend el3,el4;
+              for each el4 in vlist do
+              %if el4 neq smv then % if new DEs without symm. var. smv
+              depend el3,el4>>;
+
+            for each el3 in ylist do
+            for each el4 in xlist do depend el3,el4;
+
+            eqlist:=DeTrafo(eqlist,yslist,xslist,ulist,vlist);
+            lisp(
+            if tr_as then <<
+              terpri()$
+              write"The transformed equation";
+              if length(algebraic eqlist)>2 then write"s";
+              if symvarfound then
+              write" which should be free of ",reval algebraic smv,":"
+                             else
+              write" in which the terms without ",reval algebraic smv,
+                   "-derivative are free of ",reval algebraic smv,":";
+              terpri()
+            >>);
+            eqlist:=for each el3 in eqlist collect <<
+              el3:=factorize num el3;
+              for each el4 in el3 product
+              if 0=totdeglist({el4},ulist) then 1
+                                           else el4
+            >>;
+            lisp deprint(cdr reval algebraic eqlist);
+
+            if (length(vlist)>1) and (not freeof(vlist,smv)) then <<
+              vlist:=cons(smv,lisp(delete(reval algebraic smv,
+                                          reval algebraic vlist)));
+              if yesp
+            "Shall the dependence on the symmetry variable be dropped?"
+              then
+              <<for each el3 in ulist do
+                if not my_freeof(el3,smv) then nodepend el3,smv;
+                vlist:=rest vlist>>;
+              eqlist:=for each el3 in eqlist collect <<
+                el3:=factorize num el3;
+                for each el4 in el3 product
+                if 0=totdeglist({el4},ulist) then 1
+                                             else el4
+              >>
+            >>;
+            trafoprob:={{eqlist,ulist,vlist},append(xslist,yslist)}
+          >>
+%        >>
+      >>
+    >>;
+%  >>;
+  for each el1 in xlist do
+  for each el2 in ylist do
+  depend el2,el1;
+
+  clear ff,ffi;
+  return trafoprob
+end$ % of similarity
+
+%----------------------------
+
+algebraic procedure quasilinpde1(pde,u_,vari)$
+begin scalar trans1,e1,e2,q;
+  trans1 := quasilinpde(pde,u_,vari); % for the similarity variable
+  if trans1={} then <<
+    write"The program was not able to find the general solution ",
+         "of the PDE: ",pde," for the function ",u_,".";
+    lisp <<
+      write"Please enter either only a semicolon if no solution ",
+           "is known or enter "$terpri()$
+      write"the solution of the PDE in form ",
+           "of a list {A1,A2,...} where ";terpri()$
+      write"the Ai are algebraic expressions in ",
+           cdr reval algebraic cons(u_,vari);terpri()$
+      write"such that any function ff(A1,A2,...) which is not ",
+           "independent of `",u_;write"'";terpri()$
+      write"determines a solution `",u_,"' of the PDE through 0=ff: "
+    >>;
+    trans1:={termxread()};
+    if trans1={nil} then trans1:={}
+  >>;
+  return trans1
+end$ % of quasilinpde1
+
+end$
+
+l algebraic first ylist,"=...,...} or enter a ",
+           "semicolon ; to end this investigation:";
+      algebraic(h2:=termxread())
+    >>
+  >>;
+  return h2
+end$ % of solve_for_old_var$
+
+%----------------------------
+
+algebraic procedure switch_r_s(h2,smv,ylist,u,v)$
+begin scalar xslist,yslist,el3,h$
+  %---- Exchange of dependent and independent variables
+  xslist:={};
+  yslist:={};
+  for each el3 in h2 do if freeof(ylist,lhs el3) then
+  xslist:=cons(el3,xslist)                       else
+  yslist:=cons(el3,yslist);
+  lisp <<terpri()$
+         write"In the intended transformation shown above",
+              " the dependent ";terpri()$
+         if length yslist>2 then
+         write"variables are the ",reval algebraic u,"i and " else
+         write"variable is ",reval algebraic u," and ";
+
+         if length xslist>2 then
+         write"the independent variables are the ",
+              reval algebraic v,"i." else
+         write"the independent variable is ",reval algebraic v,".";
+         terpri()$
+         write"The symmetry variable is ",reval algebraic smv,", i.e. the ",
+              "transformed expression";terpri();
+   \documentclass[12pt]{article}
+
+%Sets size of page and margins
+\oddsidemargin 10mm  \evensidemargin 10mm
+\topmargin 0pt   \headheight 0pt   \headsep 0pt
+\textwidth 15cm
+ 
+\title{The computer algebra package {\sc Crack}
+       for solving over-determined systems of equations}
+ 
+\author{Thomas Wolf \\                        
+        Department of Mathematics \\
+        Brock University \\
+        St.Catharines \\
+        Ontario, Canada L2S 3A1 \\
+        twolf@brocku.ca}
+
+\begin{document}
+\maketitle
+\tableofcontents                                  
+\section{Online help} 
+
+\subsection{Help to help} 
+\begin{tabbing}
+  {\bf hd} \ \= Help to inspect data \\
+  {\bf hp}   \> Help to proceed \\
+  {\bf hf}   \> Help to change flags \& parameters \\
+  {\bf hc}   \> Help to change data of equations \\
+  {\bf hi}   \> Help to work with identities \\
+  {\bf hb}   \> Help to trace and debug
+\end{tabbing}
+
+\subsection{Help to inspect data} 
+\begin{tabbing}
+  {\bf e}\ \ \ \ \= Print equations          \\
+  {\bf eo}   \> Print overview of functions in equations  \\
+  {\bf pi}   \> Print inequalities  \\ 
+  {\bf f}    \> Print functions and variables        \\
+  {\bf v}    \> Print all derivatives of all functions  \\
+  {\bf s}    \> Print statistics                  \\
+  {\bf fc}   \> Print no of free cells  \\
+  {\bf pe}   \> Print an algebraic expression \\
+  {\bf ph}   \> Print history of interactive input \\
+  {\bf pv}   \> Print value of any lisp variable \\
+  {\bf pd}   \> Plot the occurence of functions in equations \\
+  {\bf ss}   \> Find and print sub-systems \\
+  {\bf w}    \> Write equations into a file
+\end{tabbing}
+
+\subsection{Help to proceed} 
+\begin{tabbing}
+  {\bf a}\ \ \ \ \= Do one step automatically      \\        
+  {\bf g}    \> Go on for a number of steps automatically    \\
+  {\bf t}    \> Toggle between automatic and user selection of 
+                equations ({\tt expert\_mode=nil/t}).  \\
+  {\bf p1}   \> Print a list of all modules in batch mode \\
+  {\bf p2}   \> Print a complete list of all modules \\
+  {\bf \#}   \> Execute the module with the number `\#' once  \\
+  {\bf l}    \> Execute a specific module repeatedly         \\
+  {\bf sb}   \> Save complete backup to file \\
+  {\bf rb}   \> Read backup from file \\
+  {\bf ep}   \> Enable parallelism \\
+  {\bf dp}   \> Disable parallelism \\
+  {\bf pp}   \> Start an identical parallel process \\
+  {\bf kp}   \> Kill a parallel process \\
+  {\bf x}    \> Exit interactive mode for good            \\
+  {\bf q}    \> Quit current level or crack if in level 0    \\        
+\end{tabbing}
+
+\subsection{Help to change flags \& parameters} 
+\begin{tabbing}
+  {\bf pl} \ \ \ \= Maximal length of an expression to be printed  \\
+  {\bf pm}   \> Toggle to print more or less information about 
+                        pdes ({\tt print\_more})    \\
+  {\bf pa}   \> Toggle to print all or not all information 
+                        about the pdes ({\tt print\_all}) \\
+  {\bf cp}   \> Change the priorities of procedures   \\
+  {\bf og}   \> Toggle ordering between `lexicographical 
+                ordering of functions having\\
+             \> a higher priority than any ordering of
+                derivatives' and the opposite \\
+             \> ({\tt lex\_fc=t}) resp.\ ({\tt lex\_fc=nil}) \\
+  {\bf od}   \> Toggle ordering between `the total order
+                of derivatives having a higher\\
+             \> priority than lexicographical ordering' 
+                ({\tt lex\_df=nil}) or not ({\tt lex\_df=t}) \\
+  {\bf oi}   \> Interactive change of ordering on variables \\
+  {\bf or}   \> Reverse ordering on variables \\
+  {\bf om}   \> Mix randomly ordering on variables \\
+  {\bf of}   \> Interactive change of ordering on functions     \\
+  {\bf op}   \> Print current ordering  \\
+  {\bf ne}   \> Root of the name of new generated equations
+                        (default: e\_) \\
+  {\bf nf}   \> Root of the name of new functions and constants
+                        (default: c\_) \\
+  {\bf ni}   \> Root of the name of new identities
+                        (default: id\_) \\
+  {\bf na}   \> Toggle for the NAT output switch ({\tt !*nat}) \\
+  {\bf as}   \> Input of an assignment          \\
+  {\bf kp}   \> Toggle for keeping a partitioned copy of each
+                        equation ({\tt keep\_parti}) \\
+  {\bf fi}   \> Toggle for allowing or not allowing
+                        integrations of equations which \\
+             \> involve unresolved integrals ({\tt freeint\_})  \\
+  {\bf fa}   \> Toggle for allowing or not allowing solutions of ODEs
+                        involving the \\
+             \> {\tt abs} function ({\tt freeabs\_})  \\
+  {\bf cs}   \> Switch on/off the confirmation of intended substitutions
+                and of the \\
+             \> order of the investigation of subcases 
+                resulting in a factorization \\
+  {\bf fs}   \> Enforce direct separation \\
+  {\bf ll}   \> change of the line length \\
+  {\bf re}   \> Toggle for allowing to re-cycle equation names
+             ({\tt do\_recycle\_eqn})  \\
+  {\bf rf}   \> Toggle for allowing to re-cycle function names
+             ({\tt do\_recycle\_fnc}) \\
+  {\bf st}   \> Setting a CPU time limit for un-interrupted run \\
+  {\bf cm}   \> Adding a comment to the history\_ list \\
+  {\bf lr}   \> Adding a LET-rule \\
+  {\bf cr}   \> Clearing a LET-rule
+\end{tabbing}
+
+\subsection{Help to change data of equations} 
+\begin{tabbing}
+  {\bf r}\ \ \ \ \ \= Replace or add one equation \\
+  {\bf n}    \> Replace one inequality      \\
+  {\bf d}    \> Delete one equation         \\             
+  {\bf c}    \> Change a flag or property of one pde  
+\end{tabbing}
+
+\subsection{Help to work with identities} 
+\begin{tabbing}
+  {\bf i}\ \ \ \ \ \= Print identities between equations \\
+  {\bf id}   \> Delete redundand equations \\
+  {\bf iw}   \> Write identities to a file \\
+  {\bf ir}   \> Remove list of identities \\
+  {\bf ia}   \> Add or replace an identity \\
+  {\bf ih}   \> Start recording histories and identities \\
+  {\bf ip}   \> Stop recording histories and identities \\
+  {\bf ii}   \> Integrate an identity \\
+  {\bf ic}   \> Check the consistency of identity data \\
+  {\bf iy}   \> Print the history of equations
+\end{tabbing}
+
+\subsection{Help to trace and debug}
+\begin{tabbing}
+  {\bf tm}  \ \= Toggle for tracing the main procedure ({\tt tr\_main}) \\
+  {\bf tg}    \> Toggle for tracing the generalized separation
+                        ({\tt tr\_gensep}) \\
+  {\bf ti}    \> Toggle for tracing the generalized integration  
+                        ({\tt tr\_genint})  \\
+  {\bf td}    \> Toggle for tracing the decoupling process
+                        ({\tt tr\_decouple}) \\
+  {\bf tl}    \> Toggle for tracing the decoupling length reduction
+                        process ({\tt tr\_redlength}) \\
+  {\bf ts}    \> Toggle for tracing the algebraic length reduction
+                        process ({\tt tr\_short}) \\
+  {\bf to}    \> Toggle for tracing the ordering procedures
+                        process ({\tt tr\_orderings}) \\
+  {\bf tr}    \> Trace an arbitrary procedure \\
+  {\bf ut}    \> Untrace a procedure \\
+  {\bf br}    \> Lisp break          \\                 
+  {\bf pc}    \> Do a function call  \\
+  {\bf in}    \> Reading in a REDUCE file
+\end{tabbing}
+
+\section{The purpose of  Crack}
+The package {\sc Crack} attempts the solution of an overdetermined 
+system of algebraic or ordinary or partial differential 
+equations (ODEs/PDEs) with at most polynomial nonlinearities. 
+
+Under `normal circumstances' differential 
+equations (DEs) which describe physical
+processes are not overdetermined, i.e.\ the number of DEs
+matches the number of unknown functions which are involved.
+Applying the package {\sc Crack} to such problems directly may be
+successful, especially if these are ODEs, but the main type of
+application is to investigate qualitative properties of such DEs/systems
+of DEs and to solve the overdetermined PDE-systems that result in these
+investigations.
+
+Applications of {\sc Crack} include a program {\sc Conlaw}
+for the computation of conservation laws of DEs, a program 
+{\sc LiePDE} for the        h:=reverse vari;  % reverse to have not a function as symvar
+          while 1+sub(u_=first h,pde)=0 do h:=rest h; % no similarity var.
+          for each e1 in fargs u_ do nodepend u_,e1;
+          h:=first h;
+          trans2:={u_ - h};
+          lisp<<write"Because the correct symmetry variable was not ",
+                     "found, the program will";terpri()$
+                write"take ",reval algebraic h,
+                     " instead with the consequence ",
+                     "that not the whole transformed ";terpri()$
+                write"PDE will be free of ",
+                     reval algebraic h," but only those ",
+                     "terms without ",
+                     reval algebraic h,"-derivative";terpri()$
+                write"which is still of use for finding special ",
+                     reval algebraic h,"-independent solutions ";
+                terpri()$
+                write"of the PDE."
+          >>
+        >>           else <<
+          %--------------- Determining an optimal symmetry variable
+          for each e1 in fargs u_ do nodepend u_,e1;
+          symvarfound:=t;
+          i:=0;
+          trans2:=for each el1 in trans2 collect
+          <<i:=i+1;
+            lisp
+            <<
+    %         terpri()$
+    %         write"In the following the symmetry variable U_",
+    %              " has to be"$terpri()$
+    %         write"determined through a condition 0 = ff",
+    %              ", where ff is"$terpri()$
+    %         write"an arbitrary function ";terpri()$
+    %         algebraic(write"ff = ",
+    %         lisp( cons('ff,cdr reval algebraic el1)));terpri()$
+              write"A suggestion for this function ff(..) yields:";terpri()
+            >>;
+            h:=einfachst(el1,u_);
+            if lisp<<h2:=reval algebraic(num h);
+                     (not pairp h2) or (car h2 neq 'PLUS)>> then
+            h:=num(h+1);
+    %       if h= first el1 then
+    %       if freeof(num(h+second el1),u_) then h:=num(h+2*second el1)
+    %                                       else h:=num(h+  second el1)
+    %                       else
+    %       if freeof(num(h+ first el1),u_) then h:=num(h+2* first el1)
+    %                                       else h:=num(h+   first el1);
+            write"0 = ",h$
+            if yesp "Do you like this choice?" then h
+                                               else <<
+              repeat <<
+                lisp <<
+                  write"Put in an alternative expression which "$terpri()$
+                  write"- is functionally dependent only on arguments of",
+                       " ff given above and"$terpri()$
+                  write"- depends on u_ and if set to zero determines u_"$
+                  terpri()>>$
+                h:=termxread()$
+              >> until not freeof(h,u_)$
+              h
+            >>
+          >>
+        >>$
+        %for each el1 in trans1 do
+        %for each el2 in trans2 do
+
+        el1:=first trans1;
+        el2:=first trans2;
+
+%        <<
+
+          %------- Grouping the new variables to ulist and vlist
+
+          yslist:=grouping(el1,el2,xlist,ylist,nx,ny)$
+          xslist:= first yslist;
+          yslist:=second yslist;
+
+          %---- Renaming the u_ to ui in yslist and to vi in xslist
+          smv:=rename_u_(xslist,yslist,el2,u_,u,v)$
+          xslist:= first smv;
+          yslist:=second smv;
+          vlist := third smv;
+          ulist:=part(smv,4);
+          smv:=part(smv,5);     % the symmetry variable
+
+          %---- Solve for old variables
+          h2:=solve_for_old_var(xslist,yslist,xlist,ylist,nx,ny);
+
+          if h2 neq nil then <<
+
+            %---- Exchange of dependent and independent variables
+            smv:=switch_r_s(h2,smv,ylist,u,v)$
+            xslist:= first smv;
+            yslist:=second smv;
+            smv   :=third smv;
+
+            %---- Doing the point transformation
+            for each el3 in ulist do
+            <<for each el4 in fargs el3 do nodepend el3,el4;
+              for each el4 in vlist do
+              %if el4 neq smv then % if new DEs without symm. var. smv
+              depend el3,el4>>;
+
+            for each el3 in ylist do
+            for each el4 in xlist do depend el3,el4;
+
+            eqlist:=DeTrafo(eqlist,yslist,xslist,ulist,vlist);
+            lisp(
+            if tr_as then <<
+              terpri()$
+              write"The transformed equation";
+              if length(algebraic eqlist)>2 then write"s";
+              if symvarfound then
+              write" which should be free of ",reval algebraic smv,":"
+                             else
+              write" in which the terms without ",reval algebraic smv,
+                   "-derivative are free of ",reval algebraic smv,":";
+              terpri()
+            >>);
+            eqlist:=for each el3 in eqlist collect <<
+              el3:=factorize num el3;
+              for each el4 in el3 product
+              if 0=totdeglist({el4},ulist) then 1
+                                           else el4
+            >>;
+            lisp deprint(cdr reval algebraic eqlist);
+
+            if (length(vlist)>1) and (not freeof(vlist,smv)) then <<
+              vlist:=cons(smv,lisp(delete(reval algebraic smv,
+                                          reval algebraic vlist)));
+              if yesp
+            "Shall the dependence on the symmetry variable be dropped?"
+              then
+              <<for each el3 in ulist do
+                if not my_freeof(el3,smv) then nodepend el3,smv;
+                vlist:=rest vlist>>;
+              eqlist:=for each el3 in eqlist collect <<
+                el3:=factorize num el3;
+                for each el4 in el3 product
+                if 0=totdeglist({el4},ulist) then 1
+                                             else el4
+              >>
+            >>;
+            trafoprob:={{eqlist,ulist,vlist},append(xslist,yslist)}
+          >>
+%        >>
+      >>
+    >>;
+%  >>;
+  for each el1 in xlist do
+  for each el2 in ylist do
+  depend el2,el1;
+
+  clear ff,ffi;
+  return trafoprob
+end$ % of similarity
+
+%----------------------------
+
+algebraic procedure quasilinpde1(pde,u_,vari)$
+begin scalar trans1,e1,e2,q;
+  trans1 := quasilinpde(pde,u_,vari); % for the similarity variable
+  if trans1={} then <<
+    write"The program was not able to find the general solution ",
+         "of the PDE: ",pde," for the function ",u_,".";
+    lisp <<
+      write"Please enter either only a semicolon if no solution ",
+           "is known or enter "$terpri()$
+      write"the solution of the PDE in form ",
+           "of a list {A1,A2,...} where ";terpri()$
+      write"the Ai are algebraic expressions in ",
+           cdr reval algebraic cons(u_,vari);terpri()$
+      write"such that any function ff(A1,A2,...) which is not ",
+           "independent of `",u_;write"'";terpri()$
+      write"determines a solution `",u_,"' of the PDE through 0=ff: "
+    >>;
+    trans1:={termxread()};
+    if trans1={nil} then trans1:={}
+  >>;
+  return trans1
+end$ % of quasilinpde1
+
+end$
+
+l algebraic first ylist,"=...,...} or enter a ",
+           "semicolon ; to end this investigation:";
+      algebraic(h2:=termxread())
+    >>
+  >>;
+  return h2
+end$ % of solve_for_old_var$
+
+%----------------------------
+
+algebraic procedure switch_r_s(h2,smv,ylist,u,v)$
+begin scalar xslist,yslist,el3,h$
+  %---- Exchange of dependent and independent variables
+  xslist:={};
+  yslist:={};
+  for each el3 in h2 do if freeof(ylist,lhs el3) then
+  xslist:=cons(el3,xslist)                       else
+  yslist:=cons(el3,yslist);
+  lisp <<terpri()$
+         write"In the intended transformation shown above",
+              " the dependent ";terpri()$
+         if length yslist>2 then
+         write"variables are the ",reval algebraic u,"i and " else
+         write"variable is ",reval algebraic u," and ";
+
+         if length xslist>2 then
+         write"the independent variables are the ",
+              reval algebraic v,"i." else
+         write"the independent variable is ",reval algebraic v,".";
+         terpri()$
+         write"The symmetry variable is ",reval algebraic smv,", i.e. the ",
+              "transformed expression";terpri();
+   \documentclass[12pt]{article}
+
+%Sets size of page and margins
+\oddsidemargin 10mm  \evensidemargin 10mm
+\topmargin 0pt   \headheight 0pt   \headsep 0pt
+\textwidth 15cm
+ 
+\title{The computer algebra package {\sc Crack}
+       for solving over-determined systems of equations}
+ 
+\author{Thomas Wolf \\                        
+        Department of Mathematics \\
+        Brock University \\
+        St.Catharines \\
+        Ontario, Canada L2S 3A1 \\
+        twolf@brocku.ca}
+
+\begin{document}
+\maketitle
+\tableofcontents                                  
+\section{Online help} 
+
+\subsection{Help to help} 
+\begin{tabbing}
+  {\bf hd} \ \= Help to inspect data \\
+  {\bf hp}   \> Help to proceed \\
+  {\bf hf}   \> Help to change flags \& parameters \\
+  {\bf hc}   \> Help to change data of equations \\
+  {\bf hi}   \> Help to work with identities \\
+  {\bf hb}   \> Help to trace and debug
+\end{tabbing}
+
+\subsection{Help to inspect data} 
+\begin{tabbing}
+  {\bf e}\ \ \ \ \= Print equations          \\
+  {\bf eo}   \> Print overview of functions in equations  \\
+  {\bf pi}   \> Print inequalities  \\ 
+  {\bf f}    \> Print functions and variables        \\
+  {\bf v}    \> Print all derivatives of all functions  \\
+  {\bf s}    \> Print statistics                  \\
+  {\bf fc}   \> Print no of free cells  \\
+  {\bf pe}   \> Print an algebraic expression \\
+  {\bf ph}   \> Print history of interactive input \\
+  {\bf pv}   \> Print value of any lisp variable \\
+  {\bf pd}   \> Plot the occurence of functions in equations \\
+  {\bf ss}   \> Find and print sub-systems \\
+  {\bf w}    \> Write equations into a file
+\end{tabbing}
+
+\subsection{Help to proceed} 
+\begin{tabbing}
+  {\bf a}\ \ \ \ \= Do one step automatically      \\        
+  {\bf g}    \> Go on for a number of steps automatically    \\
+  {\bf t}    \> Toggle between automatic and user selection of 
+                equations ({\tt expert\_mode=nil/t}).  \\
+  {\bf p1}   \> Print a list of all modules in batch mode \\
+  {\bf p2}   \> Print a complete list of all modules \\
+  {\bf \#}   \> Execute the module with the number `\#' once  \\
+  {\bf l}    \> Execute a specific module repeatedly         \\
+  {\bf sb}   \> Save complete backup to file \\
+  {\bf rb}   \> Read backup from file \\
+  {\bf ep}   \> Enable parallelism \\
+  {\bf dp}   \> Disable parallelism \\
+  {\bf pp}   \> Start an identical parallel process \\
+  {\bf kp}   \> Kill a parallel process \\
+  {\bf x}    \> Exit interactive mode for good            \\
+  {\bf q}    \> Quit current level or crack if in level 0    \\        
+\end{tabbing}
+
+\subsection{Help to change flags \& parameters} 
+\begin{tabbing}
+  {\bf pl} \ \ \ \= Maximal length of an expression to be printed  \\
+  {\bf pm}   \> Toggle to print more or less information about 
+                        pdes ({\tt print\_more})    \\
+  {\bf pa}   \> Toggle to print all or not all information 
+                        about the pdes ({\tt print\_all}) \\
+  {\bf cp}   \> Change the priorities of procedures   \\
+  {\bf og}   \> Toggle ordering between `lexicographical 
+                ordering of functions having\\
+             \> a higher priority than any ordering of
+                derivatives' and the opposite \\
+             \> ({\tt lex\_fc=t}) resp.\ ({\tt lex\_fc=nil}) \\
+  {\bf od}   \> Toggle ordering between `the total order
+                of derivatives having a higher\\
+             \> priority than lexicographical ordering' 
+                ({\tt lex\_df=nil}) or not ({\tt lex\_df=t}) \\
+  {\bf oi}   \> Interactive change of ordering on variables \\
+  {\bf or}   \> Reverse ordering on variables \\
+  {\bf om}   \> Mix randomly ordering on variables \\
+  {\bf of}   \> Interactive change of ordering on functions     \\
+  {\bf op}   \> Print current ordering  \\
+  {\bf ne}   \> Root of the name of new generated equations
+                        (default: e\_) \\
+  {\bf nf}   \> Root of the name of new functions and constants
+                        (default: c\_) \\
+  {\bf ni}   \> Root of the name of new identities
+                        (default: id\_) \\
+  {\bf na}   \> Toggle for the NAT output switch ({\tt !*nat}) \\
+  {\bf as}   \> Input of an assignment          \\
+  {\bf kp}   \> Toggle for keeping a partitioned copy of each
+                        equation ({\tt keep\_parti}) \\
+  {\bf fi}   \> Toggle for allowing or not allowing
+                        integrations of equations which \\
+             \> involve unresolved integrals ({\tt freeint\_})  \\
+  {\bf fa}   \> Toggle for allowing or not allowing solutions of ODEs
+                        involving the \\
+             \> {\tt abs} function ({\tt freeabs\_})  \\
+  {\bf cs}   \> Switch on/off the confirmation of intended substitutions
+                and of the \\
+             \> order of the investigation of subcases 
+                resulting in a factorization \\
+  {\bf fs}   \> Enforce direct separation \\
+  {\bf ll}   \> change of the line length \\
+  {\bf re}   \> Toggle for allowing to re-cycle equation names
+             ({\tt do\_recycle\_eqn})  \\
+  {\bf rf}   \> Toggle for allowing to re-cycle function names
+             ({\tt do\_recycle\_fnc}) \\
+  {\bf st}   \> Setting a CPU time limit for un-interrupted run \\
+  {\bf cm}   \> Adding a comment to the history\_ list \\
+  {\bf lr}   \> Adding a LET-rule \\
+  {\bf cr}   \> Clearing a LET-rule
+\end{tabbing}
+
+\subsection{Help to change data of equations} 
+\begin{tabbing}
+  {\bf r}\ \ \ \ \ \= Replace or add one equation \\
+  {\bf n}    \> Replace one inequality      \\
+  {\bf d}    \> Delete one equation         \\             
+  {\bf c}    \> Change a flag or property of one pde  
+\end{tabbing}
+
+\subsection{Help to work with identities} 
+\begin{tabbing}
+  {\bf i}\ \ \ \ \ \= Print identities between equations \\
+  {\bf id}   \> Delete redundand equations \\
+  {\bf iw}   \> Write identities to a file \\
+  {\bf ir}   \> Remove list of identities \\
+  {\bf ia}   \> Add or replace an identity \\
+  {\bf ih}   \> Start recording histories and identities \\
+  {\bf ip}   \> Stop recording histories and identities \\
+  {\bf ii}   \> Integrate an identity \\
+  {\bf ic}   \> Check the consistency of identity data \\
+  {\bf iy}   \> Print the history of equations
+\end{tabbing}
+
+\subsection{Help to trace and debug}
+\begin{tabbing}
+  {\bf tm}  \ \= Toggle for tracing the main procedure ({\tt tr\_main}) \\
+  {\bf tg}    \> Toggle for tracing the generalized separation
+                        ({\tt tr\_gensep}) \\
+  {\bf ti}    \> Toggle for tracing the generalized integration  
+                        ({\tt tr\_genint})  \\
+  {\bf td}    \> Toggle for tracing the decoupling process
+                        ({\tt tr\_decouple}) \\
+  {\bf tl}    \> Toggle for tracing the decoupling length reduction
+                        process ({\tt tr\_redlength}) \\
+  {\bf ts}    \> Toggle for tracing the algebraic length reduction
+                        process ({\tt tr\_short}) \\
+  {\bf to}    \> Toggle for tracing the ordering procedures
+                        process ({\tt tr\_orderings}) \\
+  {\bf tr}    \> Trace an arbitrary procedure \\
+  {\bf ut}    \> Untrace a procedure \\
+  {\bf br}    \> Lisp break          \\                 
+  {\bf pc}    \> Do a function call  \\
+  {\bf in}    \> Reading in a REDUCE file
+\end{tabbing}
+
+\section{The purpose of  Crack}
+The package {\sc Crack} attempts the solution of an overdetermined 
+system of algebraic or ordinary or partial differential 
+equations (ODEs/PDEs) with at most polynomial nonlinearities. 
+
+Under `normal circumstances' differential 
+equations (DEs) which describe physical
+processes are not overdetermined, i.e.\ the number of DEs
+matches the number of unknown functions which are involved.
+Applying the package {\sc Crack} to such problems directly may be
+successful, especially if these are ODEs, but the main type of
+application is to investigate qualitative properties of such DEs/systems
+of DEs and to solve the overdetermined PDE-systems that result in these
+investigations.
+
+Applications of {\sc Crack} include a program {\sc Conlaw}
+for the computation of conservation laws of DEs, a program 
+{\sc LiePDE} for the        h:=reverse vari;  % reverse to have not a function as symvar
+          while 1+sub(u_=first h,pde)=0 do h:=rest h; % no similarity var.
+          for each e1 in fargs u_ do nodepend u_,e1;
+          h:=first h;
+          trans2:={u_ - h};
+          lisp<<write"Because the correct symmetry variable was not ",
+                     "found, the program will";terpri()$
+                write"take ",reval algebraic h,
+                     " instead with the consequence ",
+                     "that not the whole transformed ";terpri()$
+                write"PDE will be free of ",
+                     reval algebraic h," but only those ",
+                     "terms without ",
+                     reval algebraic h,"-derivative";terpri()$
+                write"which is still of use for finding special ",
+                     reval algebraic h,"-independent solutions ";
+                terpri()$
+                write"of the PDE."
+          >>
+        >>           else <<
+          %--------------- Determining an optimal symmetry variable
+          for each e1 in fargs u_ do nodepend u_,e1;
+          symvarfound:=t;
+          i:=0;
+          trans2:=for each el1 in trans2 collect
+          <<i:=i+1;
+            lisp
+            <<
+    %         terpri()$
+    %         write"In the following the symmetry variable U_",
+    %              " has to be"$terpri()$
+    %         write"determined through a condition 0 = ff",
+    %              ", where ff is"$terpri()$
+    %         write"an arbitrary function ";terpri()$
+    %         algebraic(write"ff = ",
+    %         lisp( cons('ff,cdr reval algebraic el1)));terpri()$
+              write"A suggestion for this function ff(..) yields:";terpri()
+            >>;
+            h:=einfachst(el1,u_);
+            if lisp<<h2:=reval algebraic(num h);
+                     (not pairp h2) or (car h2 neq 'PLUS)>> then
+            h:=num(h+1);
+    %       if h= first el1 then
+    %       if freeof(num(h+second el1),u_) then h:=num(h+2*second el1)
+    %                                       else h:=num(h+  second el1)
+    %                       else
+    %       if freeof(num(h+ first el1),u_) then h:=num(h+2* first el1)
+    %                                       else h:=num(h+   first el1);
+            write"0 = ",h$
+            if yesp "Do you like this choice?" then h
+                                               else <<
+              repeat <<
+                lisp <<
+                  write"Put in an alternative expression which "$terpri()$
+                  write"- is functionally dependent only on arguments of",
+                       " ff given above and"$terpri()$
+                  write"- depends on u_ and if set to zero determines u_"$
+                  terpri()>>$
+                h:=termxread()$
+              >> until not freeof(h,u_)$
+              h
+            >>
+          >>
+        >>$
+        %for each el1 in trans1 do
+        %for each el2 in trans2 do
+
+        el1:=first trans1;
+        el2:=first trans2;
+
+%        <<
+
+          %------- Grouping the new variables to ulist and vlist
+
+          yslist:=grouping(el1,el2,xlist,ylist,nx,ny)$
+          xslist:= first yslist;
+          yslist:=second yslist;
+
+          %---- Renaming the u_ to ui in yslist and to vi in xslist
+          smv:=rename_u_(xslist,yslist,el2,u_,u,v)$
+          xslist:= first smv;
+          yslist:=second smv;
+          vlist := third smv;
+          ulist:=part(smv,4);
+          smv:=part(smv,5);     % the symmetry variable
+
+          %---- Solve for old variables
+          h2:=solve_for_old_var(xslist,yslist,xlist,ylist,nx,ny);
+
+          if h2 neq nil then <<
+
+            %---- Exchange of dependent and independent variables
+            smv:=switch_r_s(h2,smv,ylist,u,v)$
+            xslist:= first smv;
+            yslist:=second smv;
+            smv   :=third smv;
+
+            %---- Doing the point transformation
+            for each el3 in ulist do
+            <<for each el4 in fargs el3 do nodepend el3,el4;
+              for each el4 in vlist do
+              %if el4 neq smv then % if new DEs without symm. var. smv
+              depend el3,el4>>;
+
+            for each el3 in ylist do
+            for each el4 in xlist do depend el3,el4;
+
+            eqlist:=DeTrafo(eqlist,yslist,xslist,ulist,vlist);
+            lisp(
+            if tr_as then <<
+              terpri()$
+              write"The transformed equation";
+              if length(algebraic eqlist)>2 then write"s";
+              if symvarfound then
+              write" which should be free of ",reval algebraic smv,":"
+                             else
+              write" in which the terms without ",reval algebra

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/reduce-algebra/!svn/ver/383/trunk/csl/fox/utils
+END
+Makefile.dmc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/fox/utils/Makefile.dmc
+END
+Makefile.bc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/fox/utils/Makefile.bc
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/utils/LICENSE
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/383/trunk/csl/fox/utils/Makefile.in
+END
+reswrap.1
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/fox/utils/reswrap.1
+END
+reswrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/fox/utils/reswrap.cpp
+END
+Makefile.wc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/fox/utils/Makefile.wc
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/fox/utils/Makefile.am
+END
+maketree
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/fox/utils/maketree
+END

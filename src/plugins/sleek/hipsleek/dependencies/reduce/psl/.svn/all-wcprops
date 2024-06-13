@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/reduce-algebra/!svn/ver/365/trunk/psl
+END
+symget.dat
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/reduce-algebra/!svn/ver/1/trunk/psl/symget.dat
+END
+dbuild.sl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/reduce-algebra/!svn/ver/39/trunk/psl/dbuild.sl
+END
+boot.sl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/reduce-algebra/!svn/ver/39/trunk/psl/boot.sl
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/reduce-algebra/!svn/ver/355/trunk/psl/configure
+END
+noncoremodule.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/364/trunk/psl/noncoremodule.sh
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/reduce-algebra/!svn/ver/355/trunk/psl/Makefile.in
+END
+bootstrap.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/reduce-algebra/!svn/ver/365/trunk/psl/bootstrap.sh
+END
+README.PSL
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/reduce-algebra/!svn/ver/166/trunk/psl/README.PSL
+END
+reduce.img.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/364/trunk/psl/reduce.img.sh
+END
+remake2.dat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/reduce-algebra/!svn/ver/1/trunk/psl/remake2.dat
+END
+unix-oper.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/reduce-algebra/!svn/ver/39/trunk/psl/unix-oper.pdf
+END
+mkredpsl.sl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/reduce-algebra/!svn/ver/39/trunk/psl/mkredpsl.sl
+END
+unix-install.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/psl/unix-install.pdf
+END
+mkred2.sl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/reduce-algebra/!svn/ver/39/trunk/psl/mkred2.sl
+END
+pslman.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/reduce-algebra/!svn/ver/39/trunk/psl/pslman.pdf
+END
+dbuild2.sl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/reduce-algebra/!svn/ver/39/trunk/psl/dbuild2.sl
+END
+mkredpsl.dat.for.vista
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/1/trunk/psl/mkredpsl.dat.for.vista
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/reduce-algebra/!svn/ver/292/trunk/psl/configure.ac
+END
+reduce.psl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/reduce-algebra/!svn/ver/167/trunk/psl/reduce.psl
+END
+remake
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/reduce-algebra/!svn/ver/1/trunk/psl/remake
+END
+primer.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/reduce-algebra/!svn/ver/39/trunk/psl/primer.pdf
+END
+coremodule.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/364/trunk/psl/coremodule.sh
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/reduce-algebra/!svn/ver/364/trunk/psl/build.sh
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/reduce-algebra/!svn/ver/1/trunk/psl/Makefile.am
+END
+pc-oper.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/reduce-algebra/!svn/ver/39/trunk/psl/pc-oper.pdf
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/reduce-algebra/!svn/ver/355/trunk/psl/aclocal.m4
+END
+pc-install.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/psl/pc-install.pdf
+END

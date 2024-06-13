@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/236/trunk/generic/redfront/src
+END
+redfront.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/reduce-algebra/!svn/ver/113/trunk/generic/redfront/src/redfront.lsp
+END
+redfront.1
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/113/trunk/generic/redfront/src/redfront.1
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/reduce-algebra/!svn/ver/235/trunk/generic/redfront/src/Makefile.in
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/109/trunk/generic/redfront/src/LICENSE
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/reduce-algebra/!svn/ver/117/trunk/generic/redfront/src/config.guess
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/117/trunk/generic/redfront/src/config.sub
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/109/trunk/generic/redfront/src/README
+END
+redsig.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/235/trunk/generic/redfront/src/redsig.c
+END
+redchild.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/235/trunk/generic/redfront/src/redchild.c
+END
+redline.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/220/trunk/generic/redfront/src/redline.c
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/reduce-algebra/!svn/ver/220/trunk/generic/redfront/src/configure.ac
+END
+redfront.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/235/trunk/generic/redfront/src/redfront.c
+END
+redparent.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/reduce-algebra/!svn/ver/235/trunk/generic/redfront/src/redparent.c
+END
+redstrings.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/reduce-algebra/!svn/ver/113/trunk/generic/redfront/src/redstrings.c
+END
+reddeb.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/236/trunk/generic/redfront/src/reddeb.c
+END
+redfront.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/235/trunk/generic/redfront/src/redfront.h
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/117/trunk/generic/redfront/src/install-sh
+END

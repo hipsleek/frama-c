@@ -1,0 +1,436 @@
+%********************************************************************
+module underdetde$
+%********************************************************************
+%  Routines for the solution of underdetermiined ODEs and PDEs
+%  Author: Thomas Wolf
+%  August 1998, February 1999
+
+% Redistribution and use in source and binary forms, with or without
+% modification, are permitted provided that the following conditions are met:
+%
+%    * Redistributions of source code must retain the relevant copyright
+%      notice, this list of conditions and the following disclaimer.
+%    * Redistributions in binary form must reproduce the above copyright
+%      notice, this list of conditions and the following disclaimer in the
+%      documentation and/or other materials provided with the distribution.
+%
+% THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+% AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+% THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+% PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNERS OR
+% CONTRIBUTORS
+% BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+% CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+% SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+% INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+% CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+% ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+% POSSIBILITY OF SUCH DAMAGE.
+%
+
+
+symbolic procedure undetlinode(arglist)$
+% parametric solution of underdetermined ODEs
+begin scalar l,l1,p,pdes,forg,s$
+ pdes:=car arglist$
+ forg:=cadr arglist$
+ if expert_mode then <<l1:=selectpdes(pdes,1);flag(l1,'to_under)>>
+                else l1:=cadddr arglist$
+ while l1 do
+ if null (p:=get_ulode(l1)) then l1:=nil
+                            else <<
+  l:=underode(p,pdes)$
+  p:=car p$
+  if null l then <<remflag1(p,'to_under);l1:=delete(p,l1)>>
+            else <<
+   if print_ then <<
+    write"Parametric solution of the underdetermined ODE ",p$
+    terpri();
+    write"giving the new ODEs "$
+    s:=l;
+    while s do <<
+     write car s;
+     s:=cdr s;
+     if s then write ","
+    >>$
+    terpri()
+   >>$
+   pdes:=drop_pde(p,pdes,nil)$
+   for each s in l do pdes:=eqinsert(s,pdes)$
+   l:=list(pdes,forg)$
+   l1:=nil;
+  >>
+ >>$
+ return l$
+end$
+
+symbolic procedure undetlinpde(arglist)$
+% parametric solution of underdetermined PDEs
+begin scalar l,l1,p,pdes,forg$
+ pdes:=car arglist$
+ forg:=cadr arglist$
+ if expert_mode then <<l1:=selectpdes(pdes,1);flag(l1,'to_under)>>
+                else l1:=cadddr arglist$
+ while l1 do
+ if null (p:=get_ulpde(l1)) then l1:=nil
+                            else <<
+  l:=underpde(p,pdes)$  % l has to be the list of new pdes
+  p:=car p$
+  if null l then <<remflag1(p,'to_under);l1:=delete(p,l1)>>
+            else <<
+   pdes:=drop_pde(p,pdes,nil)$
+   for each s in l do pdes:=eqinsert(s,pdes)$
+   l:=list(pdes,forg)$
+   l1:=nil;
+  >>
+ >>$
+ return l$
+end$
+
+symbolic procedure get_ulode(pdes)$
+begin scalar h,best_ulode;
+ for each p in pdes do
+ if flagp(p,'to_under) then
+ if null (h:=ulodep(p)) then remflag1(p,'to_under)
+                        else
+ if ((null best_ulode) or (car h < car best_ulode)) then best_ulode:=h;
+ return if best_ulode then cdr best_ulode
+                      else nil
+end$
+
+symbolic procedure get_ulpde(pdes)$
+begin scalar h,best_ulpde;
+ for each p in pdes do
+ if flagp(p,'to_under) then
+ if null (h:=ulpdep(p)) then remflag1(p,'to_under)
+                        else
+ if ((null best_ulpde) or (car h < car best_ulpde)) then best_ulpde:=h;
+ return if best_ulpde then cdr best_ulpde
+                      else nil
+end$
+
+symbolic procedure ulodep(p)$
+begin
+ scalar tr_ulode,drvs,ulode,allvarf,minord,dv,f,x,h,found,minordf,totalorder$
+ % minord and minordf are currently not needed later on
+
+% tr_ulode:=t;
+
+ % Is it an underdetermined linear ODE for the allvarfcts?
+ drvs:=get(p,'derivs)$
+ ulode:=t$
+ allvarf:=get(p,'allvarfcts);
+ if tr_ulode then <<
+  write"allvarf=",allvarf$
+  terpri()$
+ >>$
+
+ minord:=1000;
+ if not (allvarf and cdr allvarf) then ulode:=nil
+                                  else % at least two allvar-fcts
+ while ulode and drvs do <<
+  dv:=caar drvs;
+  f:=car dv$
+  if tr_ulode then <<
+   write"car drvs=",car drvs,"  dv=",dv,"  f=",f,
+        "  member(f,allvarf)=",member(f,allvarf)$
+   terpri()$
+  >>$
+  if member(f,allvarf) then
+  if (cdar drvs neq 1) or % not linear
+                          % x is already determined and it is not x:
+     (cdr dv and ((x and (x neq cadr dv)                  ) or
+                          % there are other differentiation variables:
+                  ((cddr dv) and ((not fixp caddr dv) or
+                                  cdddr dv               ))    )
+     ) then <<            % no ODE:
+   ulode:=nil;
+   if tr_ulode then <<
+    write"new ulode=",ulode$
+    terpri()$
+   >>$
+  >>   else               % can be an ODE
+  if null cdr dv then     % f has no derivatives
+  if not member(f,found) then ulode:=nil % no ODE --> substitition
+                         else % f has already been found with a
+                              % consequently higher x-derivative
+                 else     % this is an x-derivative of f
+  if null x then <<       % x had not yet been determined
+   if tr_ulode then <<
+    write"null x"$
+    terpri()$
+   >>$
+   found:=cons(f,found)$
+   x:=cadr dv;
+   minordf:=car dv;
+   if null cddr dv then minord:=1
+                   else minord:=caddr dv;
+   totalorder:=minord
+  >>        else                  % x has already been determined
+  if not member(f,found) then <<  % only leading derivatives matter
+   found:=cons(f,found)$          % and the first deriv. of f is leading
+   if null cddr dv then h:=1
+                   else h:=caddr dv;
+   totalorder:=totalorder+h;
+   if h<minord then <<
+    minord:=h;
+    minordf:=car dv
+   >>
+  >>                     else
+                       else % not member(f,allvarf)
+  if null x or              % then there are only derivatives
+                            % of non-allvarfcts left
+     member(x,fctargs f) then ulode:=nil; % no x-dependent non-allvarfcts
+  if tr_ulode then <<
+   write"found=",found,"  minord=",minord,"  minordf=",minordf$
+   terpri()$
+  >>$
+
+  drvs:=cdr drvs;
+ >>$
+
+ if tr_ulode then <<
+  write"ulode=",ulode$
+  terpri()$
+ >>$
+ return if ulode then {totalorder,p,x,minord,minordf}
+                 else nil
+end$ % of ulodep
+
+symbolic procedure ulpdep_(p)$
+begin
+ scalar tr_ulpde,drvs,drv,ulpde,allvarf,allvarfcop,
+        vld,vl,v,pde,fn,f,no_of_drvs,no_of_tms,ordr,maxordr,parti$
+%tr_ulpde:=t;
+
+ % Is it an underdetermined linear PDE for the allvarfcts?
+ drvs:=get(p,'derivs)$
+ ulpde:=t$
+ allvarf:=get(p,'allvarfcts);
+ if tr_ulpde then <<
+  write"allvarf=",allvarf$
+  terpri()$
+ >>$
+
+ if not (allvarf and cdr allvarf) then ulpde:=nil
+                                  else << % at least two allvar-fcts
+  allvarfcop:=allvarf$
+  no_of_tms:=0; % total number of terms of all diff operators
+  vl:=get(p,'vars)$
+
+  while ulpde and allvarfcop do <<
+   % extracting the differential operator for car allvarfcop
+   pde:=get(p,'val);
+   fn:=car allvarfcop;     allvarfcop:=cdr allvarfcop;
+   for each f in allvarf do
+   if f neq fn then pde:=subst(0,f,pde);
+   pde:=reval pde;
+   % Is pde linear in fn?
+   if not lin_check(pde,{fn}) then <<
+    if tr_ulpde then <<write"not linear in ",f$terpri()>>$
+    ulpde:=nil
+   >>                         else <<
+    % add up the number of terms
+    no_of_tms:=no_of_tms + no_of_terms(pde)$
+
+    % What are all variables in pde? This is needed to test later
+    % whether they are disjunct from all variables from another
+    % diff. operator
+    vld:=nil;
+    for each v in vl do if not freeof(pde,v) then vld:=cons(v,vld);
+
+    % What is the number of derivatives of fn?
+    % What order is the highest derivative of fn?
+    no_of_drvs:=0;
+    for each drv in drvs do
+    if fn=caar drv then <<
+     ordr:=absdeg(cdar drv);
+     if (no_of_drvs=0) or (ordr>maxordr) then maxordr:=ordr;
+     no_of_drvs:=add1 no_of_drvs;
+    >>;
+
+    % collecn without inequalities
+  %            without remaining equations
+  % where each right hand side contains at least one fl-function
+  for each b1 in b do
+  if (not cadddr b1) and (not car b1) then <<
+   el1:=t;
+   for each el2 in cadr b1 do % for each computed assignment
+   if (pairp el2) and
+      (car el2='EQUAL) and
+      (null smemberl(fl,caddr el2)) and
+      (null smemberl(caddr b1,caddr el2)) then el1:=nil;
+   if el1 then b2:=cons(b1,b2);
+  >>$
+  potint_:=potold;
+  session_:=session_old;
+  %print_:=printold;
+  %!*batch_mode:=batch_mode_old;
+  if not !*batch_mode then <<
+   terpri()$
+   write" The CRACK computation to find redundand functions finished."$terpri()$
+   write"------------------------------------------------------------"$terpri()$
+  >>$
+  if null b2 then return <<
+   for each el1 in append(todelete,fldrop) do
+   drop_fct(el1)$ % depl!*:=delete(assoc(el1,depl!*),depl!*)$
+   if null fldrop then nil
+                  else <<
+
+    redund:=for each el1 in fldrop collect list('EQUAL,el1,0);
+
+    oldcon:=car a;
+    for each el1 in fldrop do oldcon:=subst(0,el1,oldcon);
+    oldcon:=for each el1 in oldcon collect reval el1;
+
+    sol:=cadr a;
+    for each el1 in fldrop do sol:=subst(0,el1,sol);
+    sol:=for each el1 in sol collect reval el1;
+
+    unequ:=cadddr a;
+    for each el1 in fldrop do unequ:=subst(0,el1,unequ);
+    unequ:=for each el1 in unequ collect reval el1;
+
+    list(redund,oldcon,sol,union(nofl_arbit,flstart),unequ)
+   >>
+  >>         else b:=car b2;
+  arbit:=caddr b;        % arbit are the free functions of the CRACK run
+                         % newfu are the solved functions
+  for each el1 in cadr b do
+  if not((pairp el1       ) and
+         (car el1 = 'EQUAL)     ) then arbit:=cons(el1,arbit)
+                                  else newfu:=cons(el1,newfu)$
+  oldcon:=car a;
+  sol:=cadr a;
+  unequ:=cadddr a;
+
+  % flstart are the remaining essential free functions
+  % redund are the functions to be dropped, they are set to 0 in
+  % the old solution
+  for each el1 in corres do
+  if member(car el1,arbit) and member(cdr el1,arbit) then <<
+   redund:=cons(list('EQUAL,car el1,0),redund);
+   fldrop:=cons(car el1,fldrop);
+   % the function and its copy are both not essential
+   oldcon:=for each el2 in oldcon collect reval subst(0,car el1,el2);
+   sol:=for each el2 in sol collect <<
+    if (pairp el2) and (car el2='EQUAL) then
+    put(cadr el2,'fcts,delete(car el1,get(cadr el2,'fcts)));
+    reval subst(0,car el1,el2)
+   >>$
+   unequ:=for each el2 in unequ collect reval subst(0,car el1,el2);
+   arbit:=delete(car el1,arbit);
+   arbit:=delete(cdr el1,arbit);
+   fl:=delete(car el1,fl);
+   fl:=delete(cdr el1,fl);
+   flstart:=delete(car el1,flstart);
+   flnew:=delete(cdr el1,flnew);
+   newfu:=subst(0,car el1,newfu);
+   newfu:=subst(0,cdr el1,newfu);
+  >>                                                 else
+  newcorres:=cons(el1,newcorres);
+
+  % Eliminate from all equations the flnew function in terms of
+  % the corresponding flstart function and possibly other terms
+  % newnewfu becomes a list of substitutions of new functions
+  % by expressions in old functions.
+  while newfu do <<
+   el1:=car newfu; % el1: evaluated function = expression
+   el2:=cadr el1;  % el2: evaluated function
+   b:=newcorres;   % the remaining correspondences
+   while b and (el2 neq cdar b) do b:=cdr b;
+   if b then       % el2 = cdar b is a new function
+   if (not freeof(el1,caar b)) then newnewfu:=cons(el1,newnewfu)
+                               else <<
+    % The right hand side ex1 of equation el1: el2=ex1 does not
+    % contain the old function, say f, which corresponds to the
+    % new function el2
+    % --> search for an equation car el3 in newfu of the form
+    % f = ex2, then add el2=ex1+f-ex2 to newnewfu
+    el3:=newfu;
+    while el3 and (cadar el3 neq caar b) do el3:=cdr el3;
+    if el3 then <<
+     newnewfu:=cons(list('EQUAL,el2,reval list('PLUS,caddr el1,cadar el3,
+                                         list('MINUS,caddar el3)     )),
+                    newnewfu);
+     newfu:=delete(car el3,newfu)
+    >>     else newnewfu:=nil;  % means later that it can not be treated
+   >>   else <<    % el2 is an old function
+    % like in the case above, only that in order to add equations of
+    % the form new_fct = expr in old_fcts can be added to newnewfu,
+    % the equations has to be solved for new_fct
+    b:=newcorres;  % the correspondences of the remaining functions
+    while el2 neq caar b do b:=cdr b; % caar b is now el2 (old function)
+    if (not freeof(el1,cdar b)) then  % image function of el2 is in el1
+    % solving el1 for the image function cdar b of el2
+    newnewfu:=cons(list('EQUAL,cdar b,reval list('PLUS,cdar b,el2,
+                                           list('MINUS,caddr el1))
+                       ),newnewfu)
+                                else <<
+     % add an equ. to el1 with (the pri-image function of el2) = ...
+     el3:=newfu;
+     while el3 and (cadar el3 neq cdar b) do el3:=cdr el3;
+     if el3 then <<
+      newnewfu:=cons(list('EQUAL,cdar b,
+                          reval list('PLUS,caddar el3,cadr el1,
+                               list('MINUS,caddr el1)      )),
+                     newnewfu);
+      newfu:=delete(car el3,newfu)
+     >>     else newnewfu:=nil;  % means later that it can not be treated
+    >>
+   >>;
+   newfu:=cdr newfu
+  >>;
+  newfu:=newnewfu;
+
+  % test, whether each new function has exactly one substitution
+  % and no new function appears on a rhs
+  if length flnew = length newfu then
+  while newnewfu and freeoflist(caddar newnewfu,flnew) do
+  newnewfu:=cdr newnewfu;
+
+  if newfu and (not newnewfu) then <<
+   % now the conditions have really been solved for the new
+   % functions, no new function is on the rhs
+
+   % arbit are all free old and new functions after the above CRACK-run
+   % fl are all functions at the start of the above CRACK-run
+   % flnew are all remaining new functions
+   % flstart are all the old functions
+   % new arbit: all functions which came in only through the
+   %            last CRACK run
+   arbit:=setdiff(setdiff(union(arbit,fl),flnew),flstart);
+
+   % rewriting the substitutions as: old fct = expr in old fcts
+   newfu:=
+   for each el1 in newfu collect <<
+    b:=cadr el1;     % b is a new function
+    el2:=newcorres;  % caar el2 the corresponding old function
+    while b neq cdar el2 do el2:=cdr el2;
+    list('EQUAL,caar el2,reval caddr el1)
+   >>;
+
+   % Specifying the functions in arbit which are free to get as many
+   % as possible functions flstart to zero
+   arbit:=fctsort(arbit)$  % to use the functions with most variables first
+   for each el1 in arbit do <<
+    vla:=fctargs el1; % variables of the function to be eliminated
+    el2:=newfu;
+    while el2 do
+    if freeof(car el2,el1) then el2:=cdr el2
+                           else <<
+     vlf:=fctargs cadar el2;
+     if (null not_included(vla,vlf)) and
+        (null not_included(vlf,vla)) then <<
+      % cadar el2 is a function that shall be made to zero
+      % by a choice for el1
+
+      % It is checked whether the arbitrary function el1 occurs only
+      % linearly algebraically, so that it can be computed by
+      % solving equation car el2
+      b:=lderiv(caddar el2,el1,vla);
+      if cdr b=1 then << % success!! cadar el2 can be set to zero!
+       if (car b neq el1) and print_ then <<terpri()$
+        write" It is assumed that the equation:";terpri()$
+        deprint cddar el2 ;
+       

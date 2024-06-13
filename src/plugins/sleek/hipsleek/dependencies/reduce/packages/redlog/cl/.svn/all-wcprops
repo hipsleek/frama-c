@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/392/trunk/packages/redlog/cl
+END
+clresolv.red
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/392/trunk/packages/redlog/cl/clresolv.red
+END
+clmisc.red
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/67/trunk/packages/redlog/cl/clmisc.red
+END
+cl.red
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/67/trunk/packages/redlog/cl/cl.red
+END
+clnf.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/67/trunk/packages/redlog/cl/clnf.red
+END
+clsimpl.red
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/reduce-algebra/!svn/ver/95/trunk/packages/redlog/cl/clsimpl.red
+END
+clbnf.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/67/trunk/packages/redlog/cl/clbnf.red
+END
+clqe.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/97/trunk/packages/redlog/cl/clqe.red
+END
+cltab.red
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/67/trunk/packages/redlog/cl/cltab.red
+END

@@ -1,0 +1,15 @@
+fxpngio.o: /usr/local/etc/reduce/csl/fox/src/fxpngio.cpp \
+ /usr/include/stdc-predef.h /usr/local/etc/reduce/csl/fox/include/fxver.h \
+ /usr/local/etc/reduce/csl/fox/include/fxdefs.h \
+ /usr/local/etc/reduce/csl/fox/include/FXHash.h \
+ /usr/local/etc/reduce/csl/fox/include/FXStream.h
+
+/usr/include/stdc-predef.h:
+
+/usr/local/etc/reduce/csl/fox/include/fxver.h:
+
+/usr/local/etc/reduce/csl/fox/include/fxdefs.h:
+
+/usr/local/etc/reduce/csl/fox/include/FXHash.h:
+
+/usr/local/etc/reduce/csl/fox/include/FXStream.h:

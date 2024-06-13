@@ -1,0 +1,1277 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/reduce-algebra/!svn/ver/387/trunk/csl/cslbase
+END
+compat.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/compat.lsp
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/AUTHORS
+END
+arith01.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith01.c
+END
+README.mac.r
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/README.mac.r
+END
+arith05.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith05.c
+END
+arith09.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith09.c
+END
+bootstrapreducecom.def
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/bootstrapreducecom.def
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/366/trunk/csl/cslbase/configure.ac
+END
+reduceexe.def
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/reduceexe.def
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/COPYING
+END
+reduce.rc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/reduce.rc
+END
+ipaq.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/ipaq.cpp
+END
+fwin.ico
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/fwin.ico
+END
+extras.red
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/extras.red
+END
+font-info.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/font-info.c
+END
+pro.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/pro.c
+END
+testall.red
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/testall.red
+END
+testall.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/testall.sh
+END
+nasty-functions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/nasty-functions.txt
+END
+fwin.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/378/trunk/csl/cslbase/fwin.c
+END
+buildreduce.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/367/trunk/csl/cslbase/buildreduce.lsp
+END
+fwin-csl.rc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/fwin-csl.rc
+END
+testrest.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/testrest.sh
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/ChangeLog
+END
+fwin.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/387/trunk/csl/cslbase/fwin.h
+END
+fns2.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/fns2.c
+END
+arith10.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith10.c
+END
+eval2.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/eval2.c
+END
+fwin-icon.rc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/fwin-icon.rc
+END
+dyndemo.def
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/dyndemo.def
+END
+struct.red
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/struct.red
+END
+buildcsl.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/buildcsl.lsp
+END
+ccomp.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/ccomp.lsp
+END
+r2l.output
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/r2l.output
+END
+mac.r
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/mac.r
+END
+csl.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/387/trunk/csl/cslbase/csl.c
+END
+bootstrapreduceexe.def
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/bootstrapreduceexe.def
+END
+texmacs-plugin.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/texmacs-plugin.tar.gz
+END
+opcodes.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/369/trunk/csl/cslbase/opcodes.red
+END
+r2l.y
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/r2l.y
+END
+bytes.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/bytes.c
+END
+textdefs.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/textdefs.c
+END
+bytes.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/bytes.h
+END
+textdefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/textdefs.h
+END
+fastgets.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/fastgets.lsp
+END
+dyndemo.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/dyndemo.c
+END
+stubs.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/stubs.c
+END
+instructions.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/instructions.c
+END
+jit1.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/jit1.c
+END
+md5.doc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/md5.doc
+END
+arith02.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith02.c
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/355/trunk/csl/cslbase/config.guess
+END
+instructions.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/instructions.h
+END
+machine.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/machine.h
+END
+building.tex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/365/trunk/csl/cslbase/building.tex
+END
+operands.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/operands.c
+END
+termdemo.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/termdemo.c
+END
+arith06.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/369/trunk/csl/cslbase/arith06.c
+END
+cmfont-info.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/cmfont-info.c
+END
+operands.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/operands.h
+END
+mpipack.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/mpipack.c
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/INSTALL
+END
+fasl.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/369/trunk/csl/cslbase/fasl.c
+END
+X
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/X
+END
+nag_s.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/nag_s.c
+END
+x86defs.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/x86defs.c
+END
+reddoc.ico
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/reddoc.ico
+END
+x86defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/x86defs.h
+END
+i86.red
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/i86.red
+END
+lispfile.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/lispfile.sh
+END
+tags.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/tags.h
+END
+rlisp.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/rlisp.lsp
+END
+hardcode.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/hardcode.txt
+END
+fwindemo.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/fwindemo.c
+END
+fns3.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/fns3.c
+END
+arith11.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith11.c
+END
+eval3.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/eval3.c
+END
+fontdemo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/144/trunk/csl/cslbase/fontdemo.cpp
+END
+arith.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/README
+END
+testslow.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/testslow.sh
+END
+termed.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/termed.txt
+END
+maple_interface.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/maple_interface.c
+END
+distorm.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/distorm.c
+END
+extras.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/extras.lsp
+END
+distorm.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/distorm.h
+END
+distorm.notes
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/distorm.notes
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/363/trunk/csl/cslbase/Makefile.am
+END
+gc.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/reduce-algebra/!svn/ver/370/trunk/csl/cslbase/gc.c
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/355/trunk/csl/cslbase/aclocal.m4
+END
+print.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/369/trunk/csl/cslbase/print.c
+END
+externs.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/369/trunk/csl/cslbase/externs.h
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/253/trunk/csl/cslbase/install-sh
+END
+unbyte.red
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/unbyte.red
+END
+showmathdemo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/showmathdemo.cpp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/363/trunk/csl/cslbase/Makefile.in
+END
+opnames.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/opnames.c
+END
+sockhdr.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/sockhdr.h
+END
+decoder.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/decoder.c
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/253/trunk/csl/cslbase/depcomp
+END
+bytes1.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/369/trunk/csl/cslbase/bytes1.c
+END
+csl.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/csl.pdf
+END
+jit2.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/jit2.c
+END
+nag_d.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/nag_d.c
+END
+decoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/decoder.h
+END
+arith03.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith03.c
+END
+openmath.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/openmath.c
+END
+i86comp.red
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/i86comp.red
+END
+jit2.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/jit2.h
+END
+arith07.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith07.c
+END
+omparser.y
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/omparser.y
+END
+clsyms.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/clsyms.h
+END
+showmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/showmem.c
+END
+icons.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/icons.h
+END
+openmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/openmath.h
+END
+lispfile.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/lispfile.lsp
+END
+0notes
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/0notes
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/NEWS
+END
+0README
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/0README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/Makefile
+END
+dynmodule1.def
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/dynmodule1.def
+END
+checkall.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/checkall.red
+END
+imulvc.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/imulvc.c
+END
+reduce.ico
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/reduce.ico
+END
+dynmodule.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/dynmodule.c
+END
+forktest.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/forktest.c
+END
+foxdemo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/foxdemo.cpp
+END
+compiler.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/compiler.red
+END
+sysfwin.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/387/trunk/csl/cslbase/sysfwin.c
+END
+conservative.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/conservative.txt
+END
+make-fox-icons.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/make-fox-icons.sh
+END
+csl.ico
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/csl.ico
+END
+makeheaders.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/makeheaders.c
+END
+arith12.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith12.c
+END
+eval4.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/eval4.c
+END
+char.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/char.c
+END
+0copyrt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/0copyrt
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/363/trunk/csl/cslbase/config.h.in
+END
+termed.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/387/trunk/csl/cslbase/termed.c
+END
+clash.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/clash.sh
+END
+restart.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/369/trunk/csl/cslbase/restart.c
+END
+termed.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/termed.h
+END
+BSD
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/BSD
+END
+sysipaq.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/sysipaq.c
+END
+fwin-reduce.rc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/fwin-reduce.rc
+END
+PLATFORM.NOTES
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/355/trunk/csl/cslbase/PLATFORM.NOTES
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/version.h
+END
+cslcom.def
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/cslcom.def
+END
+wstring.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/wstring.c
+END
+csl.tex
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/369/trunk/csl/cslbase/csl.tex
+END
+cslerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/cslerror.h
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/366/trunk/csl/cslbase/configure
+END
+insts.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/insts.c
+END
+helpdata
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/helpdata
+END
+wstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/wstring.h
+END
+fox-icons.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/fox-icons.c
+END
+insts.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/insts.h
+END
+testrest.red
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/testrest.red
+END
+compile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/compile
+END
+jit3.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/jit3.c
+END
+null.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/null.c
+END
+arith04.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith04.c
+END
+dynmodule.def
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/dynmodule.def
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/355/trunk/csl/cslbase/config.sub
+END
+objtype.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/objtype.c
+END
+RELINK.PLATFORM.NOTES
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/RELINK.PLATFORM.NOTES
+END
+arith08.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/arith08.c
+END
+headers.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/headers.h
+END
+ctrl-c.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/ctrl-c.txt
+END
+unbyte.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/369/trunk/csl/cslbase/unbyte.lsp
+END
+syscsl.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/387/trunk/csl/cslbase/syscsl.h
+END
+diconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/diconfig.h
+END
+showmath.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/showmath.txt
+END
+LineEditing.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/LineEditing.txt
+END
+ccomp.red
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/ccomp.red
+END
+ifdefs.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/ifdefs.txt
+END
+prefix.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/prefix.c
+END
+impex.def
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/impex.def
+END
+checkall.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/checkall.sh
+END
+cslexe.def
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/cslexe.def
+END
+mkinstalldirs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/reduce-algebra/!svn/ver/253/trunk/csl/cslbase/mkinstalldirs
+END
+stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/378/trunk/csl/cslbase/stream.h
+END
+get-computer-modern-metrics.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/get-computer-modern-metrics.c
+END
+prefix.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/prefix.h
+END
+csl.rc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/csl.rc
+END
+mkbytes.red
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/mkbytes.red
+END
+fns1.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/226/trunk/csl/cslbase/fns1.c
+END
+eval1.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/eval1.c
+END
+findos.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/findos.sh
+END
+disconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/disconfig.h
+END
+checks.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/checks.lsp
+END
+ompsetup.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/ompsetup.c
+END
+cslread.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/cslread.c
+END
+0rationale
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/0rationale
+END
+tagifs.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/tagifs.c
+END
+entries.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/entries.h
+END
+0license
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/0license
+END
+cslread.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/cslread.h
+END
+clash.red
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/clash.red
+END
+reducecom.def
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/reducecom.def
+END
+package.red
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/package.red
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/TODO
+END
+compiler.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/reduce-algebra/!svn/ver/369/trunk/csl/cslbase/compiler.lsp
+END
+cslmpi.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/cslmpi.c
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/253/trunk/csl/cslbase/missing
+END
+profile.red
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/profile.red
+END
+profile.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/reduce-algebra/!svn/ver/1/trunk/csl/cslbase/profile.sh
+END
+get-adobe-metrics.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/get-adobe-metrics.c
+END
+jit.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/jit.h
+END
+preserve.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/reduce-algebra/!svn/ver/369/trunk/csl/cslbase/preserve.c
+END
+jitx86.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/jitx86.c
+END
+make-c-code.red
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/reduce-algebra/!svn/ver/39/trunk/csl/cslbase/make-c-code.red
+END
