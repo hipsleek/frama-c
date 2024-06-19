@@ -34,3 +34,5 @@
  (deps VERSION VERSION_CODENAME)
  (targets config.sed python-3.7-available)
  (action (run ./configurator.exe)))
+
+(vendored_dirs hipsleek)

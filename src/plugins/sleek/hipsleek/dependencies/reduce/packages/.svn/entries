@@ -1,315 +1,0 @@
-9
-
-dir
-392
-https://reduce-algebra.svn.sourceforge.net/svnroot/reduce-algebra/trunk/packages
-https://reduce-algebra.svn.sourceforge.net/svnroot/reduce-algebra
-
-
-
-2009-07-28T07:05:52.830983Z
-392
-thomas-sturm
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-152ddeec-559a-11dd-9a24-73e4b225fce9
-
-odesolve
-dir
-
-arnum
-dir
-
-poly
-dir
-
-qsum
-dir
-
-solve
-dir
-
-reduce4
-dir
-
-tri
-dir
-
-trigsimp
-dir
-
-residue
-dir
-
-laplace
-dir
-
-numeric
-dir
-
-ncpoly
-dir
-
-rd
-dir
-
-roots
-dir
-
-xcolor
-dir
-
-arith
-dir
-
-fide
-dir
-
-atensor
-dir
-
-redlog
-dir
-
-rprint
-dir
-
-plot
-dir
-
-rtrace
-dir
-
-ztrans
-dir
-
-redfront
-dir
-
-utf8
-dir
-
-symmetry
-dir
-
-mathpr
-dir
-
-misc
-dir
-
-sparse
-dir
-
-lpdo
-dir
-
-hephys
-dir
-
-groebner
-dir
-
-sum
-dir
-
-package.map
-file
-
-
-
-
-2009-08-07T08:32:45.000000Z
-ee0d80c3ac9b2b3e52c1bae505a99c07
-2009-06-03T10:15:16.683565Z
-332
-thomas-sturm
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11533
-
-rlisp88
-dir
-
-defint
-dir
-
-camal
-dir
-
-specfn
-dir
-
-algint
-dir
-
-factor
-dir
-
-rataprx
-dir
-
-mathml
-dir
-
-susy2
-dir
-
-invbase
-dir
-
-rlisp
-dir
-
-orthovec
-dir
-
-int
-dir
-
-spde
-dir
-
-cgb
-dir
-
-geometry
-dir
-
-wu
-dir
-
-dipoly
-dir
-
-ratint
-dir
-
-mrvlimit
-dir
-
-matrix
-dir
-
-tps
-dir
-
-xideal
-dir
-
-taylor
-dir
-
-pm
-dir
-
-trigint
-dir
-
-LICENSE
-file
-
-
-
-
-2009-08-07T08:32:45.000000Z
-1ddf6904d57a23765fda06ae00f70e91
-2009-01-08T21:18:15.940431Z
-39
-schoepf
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1316
-
-crack
-dir
-
-tmprint
-dir
-
-libreduce
-dir
-
-gentran
-dir
-
-normform
-dir
-
-excalc
-dir
-
-avector
-dir
-
-alg
-dir
-
-assist
-dir
-
-linalg
-dir
-
-cali
-dir
-
-scope
-dir
-
-eds
-dir
-
-support
-dir
-

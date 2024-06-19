@@ -31,6 +31,7 @@ let run () =
 	in get_slk_dir slk_dir;
 	let command = Printf.sprintf "%s/sleek %s/input.slk > %s/sleek_analysis.out" !slk_dir cwd cwd in
 	ignore (Sys.command command)
+	(* ignore ((Sleekmain.parse_file Nativefront.list_parse) (Printf.sprintf "%s./input.slk" cwd)) *)
 
 let () = 
   Dynamic.register 

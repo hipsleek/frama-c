@@ -2,7 +2,7 @@
 	(name SLEEK)
 	(public_name frama-c-sleek.core)
 	(flags -open Frama_c_kernel :standard)
-	(libraries frama-c.kernel)
+	(libraries frama-c.kernel hipsleek)
 	(modules lexer parser sleek_options sleek_print sleek_run)
 )
 
@@ -16,4 +16,5 @@
 (rule
  (targets lexer.ml)
  (deps lexer.mll)
- (action (run ocamllex %{deps})))
+ (action (run ocamllex %{deps}))
+)
