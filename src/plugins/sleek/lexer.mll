@@ -49,6 +49,7 @@
 *)
 {
 open Cparser
+open State
 module H = Hashtbl
 module E = Errorloc
 
@@ -818,21 +819,16 @@ and sl_token = parse
 and annot_sl_token = parse
   | "*/"
     {
-    let write_sl_to_file filename content = 
-      let oc = open_out_gen [Open_wronly; Open_creat; Open_trunc; Open_text] 0o666 filename in
-      Printf.fprintf oc "%s\n" content;
-      close_out oc
-    in
-    let s = Buffer.contents buf in
-    write_sl_to_file "./src/plugins/sleek/input.slk" s;
-    Buffer.clear buf;
-    initial lexbuf
+      let s = Buffer.contents buf in
+      update_sleek_specs state s;
+      Buffer.clear buf;
+      initial lexbuf
     }
   | eof  { parse_error "Unterminated annotation" }
   | '\n' { E.newline() ; Buffer.add_char buf '\n' ; annot_sl_token lexbuf }
   | _ as c
     {
-    Buffer.add_char buf c ; annot_sl_token lexbuf
+      Buffer.add_char buf c ; annot_sl_token lexbuf
     }
 
 and annot_first_token = parse

@@ -5,86 +5,18 @@ ERROR : fixcalc cannot be found!!
 !!! **src/tpdispatcher.ml#391:set_tp z3Starting z3... 
 
 !!! **WARNING****src/sleek.ml#494:[/home/nadeshiko/hipsleek/prelude.slk,/home/nadeshiko/frama-c/src/plugins/sleek/input.slk]
-Starting Omega...oc_cannot be found
+ERROR: at /home/nadeshiko/frama-c/src/plugins/sleek/input.slk_9:0_9:33
+Message: node is already defined.
 
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations 
-Starting Omega...oc_cannot be found
+Exception processed: Failure("node is already defined.")
+error at: 
+SLEEK FAILURE (END)
 
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations 
-Starting Omega...oc_cannot be found
-
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations 
-Starting Omega...oc_cannot be found
-
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations 
-Starting Omega...oc_cannot be found
-
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations 
-Starting Omega...oc_cannot be found
-
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations 
-Starting Omega...oc_cannot be found
-
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations 
-Starting Omega...oc_cannot be found
-
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations 
-Starting Omega...oc_cannot be found
-
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations 
-Starting Omega...oc_cannot be found
-
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations 
-Starting Omega...oc_cannot be found
-
-[omega.ml ]Unexpected exception while starting prover omega
-End_of_file when checking #simplify 
- not restarting Omega ... 0 invocations PAIRWISECHECK: End_of_file exception occurs!
- not restarting Omega ... 0 invocations 
-Entail 1: Valid. 
-
-
-Stop z3... 31 invocations 
-SAT Count   : 51
-SAT % Hit   : 60.78%
-IMPLY Count : 15
-IMPLY % Hit : 26.66%
-Time(cache overhead) : 0.006941 (seconds)
-
+Stop z3... 0 invocations 
 0 false contexts at: ()
 
-!!! log(small):(0.059265,95)
-Total verification time: 0.105026 second(s)
-	Time spent in main process: 0.09307 second(s)
-	Time spent in child processes: 0.011956 second(s)
+!!! log(small):(0.,0)
+Total verification time: 0.090631 second(s)
+	Time spent in main process: 0.08744 second(s)
+	Time spent in child processes: 0.003191 second(s)
 
