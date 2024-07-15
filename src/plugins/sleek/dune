@@ -2,8 +2,8 @@
 	(name SLEEK)
 	(public_name frama-c-sleek.core)
 	(flags -open Frama_c_kernel :standard)
-	(libraries frama-c.kernel)
-	(modules state lexer parser sleek_options sleek_print sleek_run)
+	(libraries frama-c.kernel hipsleek.api)
+	(modules ccparser state lexer parser sleek_options sleek_print sleek_run)
 )
 
 (plugin
@@ -17,4 +17,10 @@
  (targets lexer.ml)
  (deps lexer.mll)
  (action (run ocamllex %{deps}))
+)
+
+(menhir
+  (modules ccparser)
+  ; "--fixed-exception" fixes compatibility with ocamlyacc Parsing.Parse_error
+  (flags --fixed-exception --explain --dump --comment)
 )

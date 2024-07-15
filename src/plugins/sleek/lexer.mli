@@ -49,7 +49,7 @@ val init:
 
 val finish: unit -> unit
 
-val initial: Lexing.lexbuf -> Cparser.token
+val initial: Lexing.lexbuf -> Ccparser.token
 (** This is the main lexing function *)
 
 val push_context: unit -> unit

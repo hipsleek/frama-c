@@ -48,8 +48,8 @@
 ** 2.0  George Necula 12/12/00: Many extensions
 *)
 {
-open Cparser
-open State
+open Ccparser
+open Hipsleek_api
 module H = Hashtbl
 module E = Errorloc
 
@@ -820,7 +820,8 @@ and annot_sl_token = parse
   | "*/"
     {
       let s = Buffer.contents buf in
-      update_sleek_specs state s;
+      (* Trying out the API first *)
+      Sleekapi.top_level_decl s;
       Buffer.clear buf;
       initial lexbuf
     }

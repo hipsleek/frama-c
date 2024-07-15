@@ -24,7 +24,7 @@
   (name frama_c_boot)
   (public_name frama-c.boot)
   (modules boot)
-  (libraries frama_c_kernel)
+  (libraries frama_c_kernel camlp4.lib)
   (instrumentation (backend landmarks))
   (instrumentation (backend bisect_ppx))
 )
