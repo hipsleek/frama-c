@@ -163,6 +163,7 @@ and pp_enum_item fmt (s,exp,loc) =
 
 (* Warning : printing for GLOBANNOT and CUSTOM is not complete *)
 and pp_def fmt = function
+  |     SLEEK_FUNDEF (_, fundef) -> pp_def fmt fundef (* dummy cases *)
   |     FUNDEF (_, single_name, bl, loc1, loc2) ->
     fprintf fmt "@[<hov 2>FUNDEF (%a), loc1(%a), loc2(%a) {%a} @]"
       pp_single_name single_name pp_cabsloc loc1 pp_cabsloc loc2 pp_block bl

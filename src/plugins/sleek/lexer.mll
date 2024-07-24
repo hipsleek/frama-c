@@ -49,7 +49,7 @@
 *)
 {
 open Ccparser
-open Hipsleek_api
+(* open Hipsleek_api *)
 module H = Hashtbl
 module E = Errorloc
 
@@ -821,9 +821,8 @@ and annot_sl_token = parse
     {
       let s = Buffer.contents buf in
       (* Trying out the API first *)
-      Sleekapi.top_level_decl s;
-      Buffer.clear buf;
-      initial lexbuf
+      (* Sleekapi.top_level_decl s; *)
+      SLEEK_SPEC (s)
     }
   | eof  { parse_error "Unterminated annotation" }
   | '\n' { E.newline() ; Buffer.add_char buf '\n' ; annot_sl_token lexbuf }

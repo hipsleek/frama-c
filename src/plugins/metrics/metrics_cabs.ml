@@ -109,6 +109,7 @@ class metricsCabsVisitor = object(self)
              end
           );
       end
+    | SLEEK_FUNDEF _
     | DECDEF _
     | TYPEDEF _
     | ONLYTYPEDEF _

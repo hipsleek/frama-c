@@ -177,6 +177,9 @@ let in_ghost =
 
 let ghost_global = ref false
 
+let doSLEEKFunctionDef (sleek_spec : string) (func_def : definition) : definition =
+  SLEEK_FUNDEF (sleek_spec, func_def)
+
 let doFunctionDef spec (loc: cabsloc)
                   (lend: cabsloc)
                   (specs: spec_elem list)
@@ -315,6 +318,7 @@ let in_ghost_block ?(battrs=[]) l =
 
 %}
 
+%token <string> SLEEK_SPEC
 %token <Filepath.position * string> SPEC
 %token <Logic_ptree.decl list> DECL
 %token <Logic_ptree.code_annot * Cabs.cabsloc> CODE_ANNOT
@@ -425,7 +429,7 @@ let in_ghost_block ?(battrs=[]) l =
 %type <Cabs.single_name> parameter_decl
 %type <Cabs.enum_item> enumerator
 %type <Cabs.enum_item list> enum_list
-%type <Cabs.definition> declaration function_def
+%type <Cabs.definition> declaration function_def sleek_function_def
 %type <cabsloc * spec_elem list * name> function_def_start
 %type <Cabs.spec_elem list * Cabs.decl_type> type_name
 %type <Cabs.block * cabsloc * cabsloc> block
@@ -475,7 +479,7 @@ ghost_globals:
 global:
 | DECL             { GLOBANNOT $1 }
 | declaration      { $1 }
-| function_def     { $1 }
+| sleek_function_def     { $1 }
 
 /*(* Some C header files are shared with the C++ compiler and have linkage
    * specification *)*/
@@ -1516,9 +1520,16 @@ abs_direct_decl_opt:
     abs_direct_decl                 { $1 }
 |   /* empty */                     { JUSTBASE }
 ;
+
+sleek_function_def: 
+| SLEEK_SPEC function_def { doSLEEKFunctionDef $1 $2 }
+| function_def            { doSLEEKFunctionDef "" $1 }
+;
+
 function_def:  /* (* ISO 6.9.1 *) */
   SPEC function_def_start block
           {
+            let () = print_string ((snd $1) ^ "\n") in
             let (loc, specs, decl) = $2 in
             let spec_loc =
               let loc = fst $1 in

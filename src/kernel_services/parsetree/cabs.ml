@@ -157,6 +157,11 @@ and enum_item = string * expression * cabsloc
 ** Declaration definition (at toplevel)
 *)
 and definition =
+  | SLEEK_FUNDEF of string * definition (* 
+                                            Attempt: changing AST
+                                            Note: definition here is just another FUNDEF
+                                            Expectation: type FUNDEF won't appear in the AST
+                                        *)
   | FUNDEF of
       (Logic_ptree.spec*cabsloc) option * single_name * block *
       cabsloc * cabsloc

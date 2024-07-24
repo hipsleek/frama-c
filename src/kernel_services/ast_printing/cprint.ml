@@ -633,6 +633,7 @@ and print_def fmt def =
 
   | LINKAGE (n, _, dl) ->
     fprintf fmt "@[<2>extern@ %s@ {%a@;}@]" n (pp_list print_def) dl
+  | SLEEK_FUNDEF (_, _) -> fprintf fmt ""
 
 (*  print abstrac_syntax -> ()
  **              Pretty printing the given abstract syntax program.

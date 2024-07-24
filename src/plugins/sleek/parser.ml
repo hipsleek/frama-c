@@ -10,6 +10,6 @@ let custom_parser f =
   let filepath = Filepath.Normalized.of_string f in
   let cil, cabs = Frontc.parse filepath () in
   let cast = parse filepath in
-  let () = State.process cast in
+  let () = State.forwardVerify cast in
   (cil, cabs)
 

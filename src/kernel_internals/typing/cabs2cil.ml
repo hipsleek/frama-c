@@ -9603,6 +9603,7 @@ and doDecl local_env (isglobal: bool) (def: Cabs.definition) : chunk =
 
   | Cabs.GLOBANNOT _ | Cabs.PRAGMA _ | Cabs.GLOBASM _ | Cabs.FUNDEF _ ->
     abort_context "this form of declaration must be global"
+  | Cabs.SLEEK_FUNDEF (_, d) -> doDecl local_env isglobal d 
 
 and doTypedef ghost ((specs, nl): Cabs.name_group) =
   (* Do the specifiers exactly once *)

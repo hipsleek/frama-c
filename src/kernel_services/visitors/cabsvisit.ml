@@ -234,6 +234,7 @@ and visitCabsDefinition vis (d: definition) : definition list =
     (doVisitList vis vis#vdef childrenDefinition) d
 and childrenDefinition vis d =
   match d with
+  
     FUNDEF (spec,sn, b, l, lend) ->
     let sn' = childrenSingleName vis NFun sn in
     let b' = visitCabsBlock vis b in
@@ -262,6 +263,7 @@ and childrenDefinition vis d =
     let dl' = mapNoCopyList (visitCabsDefinition vis) dl in
     if dl' != dl then LINKAGE (n, l, dl') else d
   | GLOBANNOT _ -> d
+  | SLEEK_FUNDEF (_, fundef) -> childrenDefinition vis fundef (* dummy case : to be handled later *)
 
 and visitCabsBlock vis (b: block) : block =
   doVisit vis vis#vblock childrenBlock b
